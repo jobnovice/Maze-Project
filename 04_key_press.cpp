@@ -74,9 +74,9 @@ void close()
 	SDL_FreeSurface(gScreenSurface);
 	for (int i = 0; i < KEY_PRESS_SURFACE_TOTAL; ++i) {
 		SDL_FreeSurface(gKeyPressSurfaces[i]);
+		gKeyPressSurfaces[i] = NULL;
 	}
-	gCurrentSurface = NULL;
-	gScreenSurface = NULL;
+	
 	SDL_DestroyWindow(gWindow);
 	gWindow = NULL;
 	SDL_Quit();

@@ -46,7 +46,7 @@ bool init()
 bool LoadMedia()
 {
 	bool success = true;
-	gXOut = SDL_LoadBMP("x.bmp");
+	gXOut = SDL_LoadBMP("Pics/x.bmp");
 
 	if (gXOut == NULL)
 	{
