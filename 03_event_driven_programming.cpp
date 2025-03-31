@@ -54,7 +54,7 @@ bool LoadMedia()
 		success = false;
 	}
 
-	return success;
+	return success;	
 }
 
 void close()
