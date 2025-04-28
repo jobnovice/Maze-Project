@@ -106,7 +106,7 @@ SDL_Surface* loadSurface( std::string path )
 	{
 		//Convert surface to screen format
 		optimizedSurface = SDL_ConvertSurface( loadedSurface, gScreenSurface->format, 0 );
-		if( optimizedSurface == NULL )
+		if( optimizedSurface == NULL )	
 		{
 			printf( "Unable to optimize image %s! SDL Error: %s\n", path.c_str(), SDL_GetError() );
 		}
