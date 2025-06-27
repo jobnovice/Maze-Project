@@ -2,23 +2,25 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build C++ with SDL2",
+            "label": "Build with CMake",
             "type": "shell",
-            "command": "g++",
-            "args": [
-                "-Wall",
-                "-Wextra",
-                "-g3",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
-                "`sdl2-config --cflags --libs`"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "command": "cmake --build ${workspaceFolder}/build",
+            "group": "build",
             "problemMatcher": ["$gcc"]
         }
+    ],
+	"label": "Build by Prefix",
+    "type": "shell",
+    "command": "cd build && cmake --build . --target ${input:targetPrefix}*",
+    "inputs": [
+        {
+            "id": "targetPrefix",
+            "type": "promptString",
+            "description": "Enter target prefix (e.g., '04')",
+			"options": [
+                "${command:cmake.launchTargetVariants}"
+            ]
+        }
     ]
+
 }

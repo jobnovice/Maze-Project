@@ -1,0 +1,6 @@
+/home/job/Maze-Project/build/CMakeFiles/03_event_driven_programming.dir
+/home/job/Maze-Project/build/CMakeFiles/04_key_press.dir
+/home/job/Maze-Project/build/CMakeFiles/05_optimized_surface_load.dir
+/home/job/Maze-Project/build/CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir
+/home/job/Maze-Project/build/CMakeFiles/edit_cache.dir
+/home/job/Maze-Project/build/CMakeFiles/rebuild_cache.dir
