@@ -10,6 +10,8 @@ const int SCREEN_HEIGHT = 480;
 //the window that we're going to be rendering on
 SDL_Window* gWindow;
 
+//the renderer for our window
+SDL_Renderer* gRenderer;
 //the surface contained by the window
 SDL_Surface* gScreenSurface;
 
