@@ -168,6 +168,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/build.make CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/build
 .PHONY : 06_extension_libraries_and_loading_other_image_formats/fast
 
+#=============================================================================
+# Target rules for targets named 07_texture_loading_and_rendering
+
+# Build rule for target.
+07_texture_loading_and_rendering: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_texture_loading_and_rendering
+.PHONY : 07_texture_loading_and_rendering
+
+# fast build rule for target.
+07_texture_loading_and_rendering/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_texture_loading_and_rendering.dir/build.make CMakeFiles/07_texture_loading_and_rendering.dir/build
+.PHONY : 07_texture_loading_and_rendering/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -264,6 +277,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/build.make CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/06_extension_libraries_and_loading_other_image_formats.cpp.s
 .PHONY : 06_extension_libraries_and_loading_other_image_formats.cpp.s
 
+07_texture_loading_and_rendering.o: 07_texture_loading_and_rendering.cpp.o
+.PHONY : 07_texture_loading_and_rendering.o
+
+# target to build an object file
+07_texture_loading_and_rendering.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_texture_loading_and_rendering.dir/build.make CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o
+.PHONY : 07_texture_loading_and_rendering.cpp.o
+
+07_texture_loading_and_rendering.i: 07_texture_loading_and_rendering.cpp.i
+.PHONY : 07_texture_loading_and_rendering.i
+
+# target to preprocess a source file
+07_texture_loading_and_rendering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_texture_loading_and_rendering.dir/build.make CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.i
+.PHONY : 07_texture_loading_and_rendering.cpp.i
+
+07_texture_loading_and_rendering.s: 07_texture_loading_and_rendering.cpp.s
+.PHONY : 07_texture_loading_and_rendering.s
+
+# target to generate assembly for a file
+07_texture_loading_and_rendering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_texture_loading_and_rendering.dir/build.make CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.s
+.PHONY : 07_texture_loading_and_rendering.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,6 +313,7 @@ help:
 	@echo "... 04_key_press"
 	@echo "... 05_optimized_surface_load"
 	@echo "... 06_extension_libraries_and_loading_other_image_formats"
+	@echo "... 07_texture_loading_and_rendering"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -288,6 +326,9 @@ help:
 	@echo "... 06_extension_libraries_and_loading_other_image_formats.o"
 	@echo "... 06_extension_libraries_and_loading_other_image_formats.i"
 	@echo "... 06_extension_libraries_and_loading_other_image_formats.s"
+	@echo "... 07_texture_loading_and_rendering.o"
+	@echo "... 07_texture_loading_and_rendering.i"
+	@echo "... 07_texture_loading_and_rendering.s"
 .PHONY : help
 
 
