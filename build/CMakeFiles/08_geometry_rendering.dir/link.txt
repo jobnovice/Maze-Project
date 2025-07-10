@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.o -o /home/job/Maze-Project/output/08_geometry_rendering  /usr/lib/x86_64-linux-gnu/libSDL2.so /usr/lib/x86_64-linux-gnu/libSDL2_image.so 

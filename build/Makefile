@@ -181,6 +181,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_texture_loading_and_rendering.dir/build.make CMakeFiles/07_texture_loading_and_rendering.dir/build
 .PHONY : 07_texture_loading_and_rendering/fast
 
+#=============================================================================
+# Target rules for targets named 08_geometry_rendering
+
+# Build rule for target.
+08_geometry_rendering: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_geometry_rendering
+.PHONY : 08_geometry_rendering
+
+# fast build rule for target.
+08_geometry_rendering/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_geometry_rendering.dir/build.make CMakeFiles/08_geometry_rendering.dir/build
+.PHONY : 08_geometry_rendering/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -301,6 +314,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_texture_loading_and_rendering.dir/build.make CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.s
 .PHONY : 07_texture_loading_and_rendering.cpp.s
 
+08_geometry_rendering.o: 08_geometry_rendering.cpp.o
+.PHONY : 08_geometry_rendering.o
+
+# target to build an object file
+08_geometry_rendering.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_geometry_rendering.dir/build.make CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.o
+.PHONY : 08_geometry_rendering.cpp.o
+
+08_geometry_rendering.i: 08_geometry_rendering.cpp.i
+.PHONY : 08_geometry_rendering.i
+
+# target to preprocess a source file
+08_geometry_rendering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_geometry_rendering.dir/build.make CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.i
+.PHONY : 08_geometry_rendering.cpp.i
+
+08_geometry_rendering.s: 08_geometry_rendering.cpp.s
+.PHONY : 08_geometry_rendering.s
+
+# target to generate assembly for a file
+08_geometry_rendering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_geometry_rendering.dir/build.make CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.s
+.PHONY : 08_geometry_rendering.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +351,7 @@ help:
 	@echo "... 05_optimized_surface_load"
 	@echo "... 06_extension_libraries_and_loading_other_image_formats"
 	@echo "... 07_texture_loading_and_rendering"
+	@echo "... 08_geometry_rendering"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -329,6 +367,9 @@ help:
 	@echo "... 07_texture_loading_and_rendering.o"
 	@echo "... 07_texture_loading_and_rendering.i"
 	@echo "... 07_texture_loading_and_rendering.s"
+	@echo "... 08_geometry_rendering.o"
+	@echo "... 08_geometry_rendering.i"
+	@echo "... 08_geometry_rendering.s"
 .PHONY : help
 
 

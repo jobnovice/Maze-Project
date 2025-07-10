@@ -55,4 +55,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/05_optimized_surface_load.dir/DependInfo.cmake"
   "CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/DependInfo.cmake"
   "CMakeFiles/07_texture_loading_and_rendering.dir/DependInfo.cmake"
+  "CMakeFiles/08_geometry_rendering.dir/DependInfo.cmake"
   )
