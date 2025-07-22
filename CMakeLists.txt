@@ -12,7 +12,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)  # Adjust based on your needs
 
-# Get all .cpp files in src/
+# Get all .add_executable(09_the_viewport ...)cpp files in src/
 file(GLOB SOURCE_FILES "*.cpp")
 
 # Create one executable per source file

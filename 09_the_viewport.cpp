@@ -22,7 +22,7 @@ SDL_Texture *loadTexture(std::string path);
 
 bool init()
 {
-	bool success = false;
+	bool success = true;
 
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
@@ -67,7 +67,7 @@ bool loadMedia()
 	bool success = true;
 	
 
-	gTexture  = loadTexture("Pics/something.png");
+	gTexture  = loadTexture("Pics/viewport.png");
 
 	if (gTexture == NULL)
 	{
@@ -117,7 +117,7 @@ void close()
 
 int main(int argc, char *args[])
 {
-	if (!init)
+	if (!init())
 	{
 		printf("couldn't intialize the dependecies");
 	}
@@ -164,7 +164,7 @@ int main(int argc, char *args[])
 				topRightViewport.x = SCREEN_WIDTH / 2;
 				topRightViewport.y = 0;
 				topRightViewport.w = SCREEN_WIDTH / 2;
-				topRightViewport.y = SCREEN_HEIGHT / 2;
+				topRightViewport.h = SCREEN_HEIGHT / 2;
 
 				SDL_RenderSetViewport(gRenderer, &topRightViewport);
 

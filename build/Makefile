@@ -194,6 +194,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_geometry_rendering.dir/build.make CMakeFiles/08_geometry_rendering.dir/build
 .PHONY : 08_geometry_rendering/fast
 
+#=============================================================================
+# Target rules for targets named 09_the_viewport
+
+# Build rule for target.
+09_the_viewport: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_the_viewport
+.PHONY : 09_the_viewport
+
+# fast build rule for target.
+09_the_viewport/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_the_viewport.dir/build.make CMakeFiles/09_the_viewport.dir/build
+.PHONY : 09_the_viewport/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -338,6 +351,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_geometry_rendering.dir/build.make CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.s
 .PHONY : 08_geometry_rendering.cpp.s
 
+09_the_viewport.o: 09_the_viewport.cpp.o
+.PHONY : 09_the_viewport.o
+
+# target to build an object file
+09_the_viewport.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_the_viewport.dir/build.make CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o
+.PHONY : 09_the_viewport.cpp.o
+
+09_the_viewport.i: 09_the_viewport.cpp.i
+.PHONY : 09_the_viewport.i
+
+# target to preprocess a source file
+09_the_viewport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_the_viewport.dir/build.make CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.i
+.PHONY : 09_the_viewport.cpp.i
+
+09_the_viewport.s: 09_the_viewport.cpp.s
+.PHONY : 09_the_viewport.s
+
+# target to generate assembly for a file
+09_the_viewport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_the_viewport.dir/build.make CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.s
+.PHONY : 09_the_viewport.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -352,6 +389,7 @@ help:
 	@echo "... 06_extension_libraries_and_loading_other_image_formats"
 	@echo "... 07_texture_loading_and_rendering"
 	@echo "... 08_geometry_rendering"
+	@echo "... 09_the_viewport"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -370,6 +408,9 @@ help:
 	@echo "... 08_geometry_rendering.o"
 	@echo "... 08_geometry_rendering.i"
 	@echo "... 08_geometry_rendering.s"
+	@echo "... 09_the_viewport.o"
+	@echo "... 09_the_viewport.i"
+	@echo "... 09_the_viewport.s"
 .PHONY : help
 
 
