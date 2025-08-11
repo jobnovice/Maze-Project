@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/job/Maze-Project/output/08_geometry_rendering"
+			"path" : "/home/job/Maze-Project/output/04_key_press"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++11"
+					"fragment" : "-g -std=gnu++11"
 				}
 			],
 			"includes" : 
@@ -75,11 +75,15 @@
 			]
 		}
 	],
-	"id" : "08_geometry_rendering::@6890427a1f51a3e7e1df",
+	"id" : "04_key_press::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -97,8 +101,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "08_geometry_rendering",
-	"nameOnDisk" : "08_geometry_rendering",
+	"name" : "04_key_press",
+	"nameOnDisk" : "04_key_press",
 	"paths" : 
 	{
 		"build" : ".",
@@ -119,7 +123,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "08_geometry_rendering.cpp",
+			"path" : "04_key_press.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

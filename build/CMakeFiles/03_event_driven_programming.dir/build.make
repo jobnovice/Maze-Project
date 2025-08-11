@@ -73,15 +73,15 @@ CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o: CM
 CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o: /home/job/Maze-Project/03_event_driven_programming.cpp
 CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o: CMakeFiles/03_event_driven_programming.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/job/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o -MF CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o.d -o CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o -c /home/job/Maze-Project/03_event_driven_programming.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o -MF CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o.d -o CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o -c /home/job/Maze-Project/03_event_driven_programming.cpp
 
 CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/job/Maze-Project/03_event_driven_programming.cpp > CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/job/Maze-Project/03_event_driven_programming.cpp > CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.i
 
 CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/job/Maze-Project/03_event_driven_programming.cpp -o CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/job/Maze-Project/03_event_driven_programming.cpp -o CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.s
 
 # Object files for target 03_event_driven_programming
 03_event_driven_programming_OBJECTS = \

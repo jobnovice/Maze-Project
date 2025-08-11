@@ -207,6 +207,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_the_viewport.dir/build.make CMakeFiles/09_the_viewport.dir/build
 .PHONY : 09_the_viewport/fast
 
+#=============================================================================
+# Target rules for targets named 10_color_keying
+
+# Build rule for target.
+10_color_keying: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_color_keying
+.PHONY : 10_color_keying
+
+# fast build rule for target.
+10_color_keying/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/build
+.PHONY : 10_color_keying/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -375,6 +388,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_the_viewport.dir/build.make CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.s
 .PHONY : 09_the_viewport.cpp.s
 
+10_color_keying.o: 10_color_keying.cpp.o
+.PHONY : 10_color_keying.o
+
+# target to build an object file
+10_color_keying.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o
+.PHONY : 10_color_keying.cpp.o
+
+10_color_keying.i: 10_color_keying.cpp.i
+.PHONY : 10_color_keying.i
+
+# target to preprocess a source file
+10_color_keying.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/10_color_keying.cpp.i
+.PHONY : 10_color_keying.cpp.i
+
+10_color_keying.s: 10_color_keying.cpp.s
+.PHONY : 10_color_keying.s
+
+# target to generate assembly for a file
+10_color_keying.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/10_color_keying.cpp.s
+.PHONY : 10_color_keying.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -390,6 +427,7 @@ help:
 	@echo "... 07_texture_loading_and_rendering"
 	@echo "... 08_geometry_rendering"
 	@echo "... 09_the_viewport"
+	@echo "... 10_color_keying"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -411,6 +449,9 @@ help:
 	@echo "... 09_the_viewport.o"
 	@echo "... 09_the_viewport.i"
 	@echo "... 09_the_viewport.s"
+	@echo "... 10_color_keying.o"
+	@echo "... 10_color_keying.i"
+	@echo "... 10_color_keying.s"
 .PHONY : help
 
 

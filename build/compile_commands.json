@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o -c /home/job/Maze-Project/03_event_driven_programming.cpp",
+  "file": "/home/job/Maze-Project/03_event_driven_programming.cpp",
+  "output": "CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/04_key_press.dir/04_key_press.cpp.o -c /home/job/Maze-Project/04_key_press.cpp",
+  "file": "/home/job/Maze-Project/04_key_press.cpp",
+  "output": "CMakeFiles/04_key_press.dir/04_key_press.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o -c /home/job/Maze-Project/05_optimized_surface_load.cpp",
+  "file": "/home/job/Maze-Project/05_optimized_surface_load.cpp",
+  "output": "CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/06_extension_libraries_and_loading_other_image_formats.cpp.o -c /home/job/Maze-Project/06_extension_libraries_and_loading_other_image_formats.cpp",
+  "file": "/home/job/Maze-Project/06_extension_libraries_and_loading_other_image_formats.cpp",
+  "output": "CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/06_extension_libraries_and_loading_other_image_formats.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o -c /home/job/Maze-Project/07_texture_loading_and_rendering.cpp",
+  "file": "/home/job/Maze-Project/07_texture_loading_and_rendering.cpp",
+  "output": "CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.o -c /home/job/Maze-Project/08_geometry_rendering.cpp",
+  "file": "/home/job/Maze-Project/08_geometry_rendering.cpp",
+  "output": "CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o -c /home/job/Maze-Project/09_the_viewport.cpp",
+  "file": "/home/job/Maze-Project/09_the_viewport.cpp",
+  "output": "CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o -c /home/job/Maze-Project/10_color_keying.cpp",
+  "file": "/home/job/Maze-Project/10_color_keying.cpp",
+  "output": "CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o"
+}
+]

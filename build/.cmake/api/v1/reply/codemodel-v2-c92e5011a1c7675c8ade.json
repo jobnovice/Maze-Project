@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -21,11 +21,12 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -42,7 +43,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -51,50 +53,57 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "03_event_driven_programming::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-03_event_driven_programming-5db3840c869496a2245a.json",
+					"jsonFile" : "target-03_event_driven_programming-Debug-684b562a542b2c3b9a99.json",
 					"name" : "03_event_driven_programming",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "04_key_press::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-04_key_press-dcfbe7e9813db966179c.json",
+					"jsonFile" : "target-04_key_press-Debug-165401e0a22a741c8fd6.json",
 					"name" : "04_key_press",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "05_optimized_surface_load::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-05_optimized_surface_load-014aaed6199a344fbd9a.json",
+					"jsonFile" : "target-05_optimized_surface_load-Debug-8305e808538cac1689fc.json",
 					"name" : "05_optimized_surface_load",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "06_extension_libraries_and_loading_other_image_formats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-06_extension_libraries_and_loading_other_image_formats-94db3d4acb613d37774c.json",
+					"jsonFile" : "target-06_extension_libraries_and_loading_other_image_formats-Debug-12e1bacea9523dee64d6.json",
 					"name" : "06_extension_libraries_and_loading_other_image_formats",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "07_texture_loading_and_rendering::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-07_texture_loading_and_rendering-8bb0cca0ff8371ed2413.json",
+					"jsonFile" : "target-07_texture_loading_and_rendering-Debug-fb96a1a162a702525a37.json",
 					"name" : "07_texture_loading_and_rendering",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "08_geometry_rendering::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-08_geometry_rendering-7d05bc9b0d16e6bab015.json",
+					"jsonFile" : "target-08_geometry_rendering-Debug-047f5e62fa4efa06cc65.json",
 					"name" : "08_geometry_rendering",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "09_the_viewport::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-09_the_viewport-542e2c526508f2aebdd1.json",
+					"jsonFile" : "target-09_the_viewport-Debug-6f79ffbbea6613de72f5.json",
 					"name" : "09_the_viewport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10_color_keying::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_color_keying-Debug-d94020057794743ac203.json",
+					"name" : "10_color_keying",
 					"projectIndex" : 0
 				}
 			]

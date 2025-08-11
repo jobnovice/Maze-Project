@@ -73,15 +73,15 @@ CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering
 CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o: /home/job/Maze-Project/07_texture_loading_and_rendering.cpp
 CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o: CMakeFiles/07_texture_loading_and_rendering.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/job/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o -MF CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o.d -o CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o -c /home/job/Maze-Project/07_texture_loading_and_rendering.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o -MF CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o.d -o CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o -c /home/job/Maze-Project/07_texture_loading_and_rendering.cpp
 
 CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/job/Maze-Project/07_texture_loading_and_rendering.cpp > CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/job/Maze-Project/07_texture_loading_and_rendering.cpp > CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.i
 
 CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/job/Maze-Project/07_texture_loading_and_rendering.cpp -o CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/job/Maze-Project/07_texture_loading_and_rendering.cpp -o CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.s
 
 # Object files for target 07_texture_loading_and_rendering
 07_texture_loading_and_rendering_OBJECTS = \

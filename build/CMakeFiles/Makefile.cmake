@@ -57,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/07_texture_loading_and_rendering.dir/DependInfo.cmake"
   "CMakeFiles/08_geometry_rendering.dir/DependInfo.cmake"
   "CMakeFiles/09_the_viewport.dir/DependInfo.cmake"
+  "CMakeFiles/10_color_keying.dir/DependInfo.cmake"
   )

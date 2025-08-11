@@ -70,6 +70,7 @@ all: CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/all
 all: CMakeFiles/07_texture_loading_and_rendering.dir/all
 all: CMakeFiles/08_geometry_rendering.dir/all
 all: CMakeFiles/09_the_viewport.dir/all
+all: CMakeFiles/10_color_keying.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -84,6 +85,7 @@ clean: CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir/cle
 clean: CMakeFiles/07_texture_loading_and_rendering.dir/clean
 clean: CMakeFiles/08_geometry_rendering.dir/clean
 clean: CMakeFiles/09_the_viewport.dir/clean
+clean: CMakeFiles/10_color_keying.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -267,6 +269,32 @@ CMakeFiles/09_the_viewport.dir/rule: cmake_check_build_system
 CMakeFiles/09_the_viewport.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_the_viewport.dir/build.make CMakeFiles/09_the_viewport.dir/clean
 .PHONY : CMakeFiles/09_the_viewport.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/10_color_keying.dir
+
+# All Build rule for target.
+CMakeFiles/10_color_keying.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/job/Maze-Project/build/CMakeFiles --progress-num=15,16 "Built target 10_color_keying"
+.PHONY : CMakeFiles/10_color_keying.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/10_color_keying.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/job/Maze-Project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/10_color_keying.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/job/Maze-Project/build/CMakeFiles 0
+.PHONY : CMakeFiles/10_color_keying.dir/rule
+
+# Convenience name for target.
+10_color_keying: CMakeFiles/10_color_keying.dir/rule
+.PHONY : 10_color_keying
+
+# clean rule for target.
+CMakeFiles/10_color_keying.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/clean
+.PHONY : CMakeFiles/10_color_keying.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
