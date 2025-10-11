@@ -220,6 +220,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/build
 .PHONY : 10_color_keying/fast
 
+#=============================================================================
+# Target rules for targets named 11_clip_rendering
+
+# Build rule for target.
+11_clip_rendering: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_clip_rendering
+.PHONY : 11_clip_rendering
+
+# fast build rule for target.
+11_clip_rendering/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_clip_rendering.dir/build.make CMakeFiles/11_clip_rendering.dir/build
+.PHONY : 11_clip_rendering/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -412,6 +425,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_color_keying.dir/build.make CMakeFiles/10_color_keying.dir/10_color_keying.cpp.s
 .PHONY : 10_color_keying.cpp.s
 
+11_clip_rendering.o: 11_clip_rendering.cpp.o
+.PHONY : 11_clip_rendering.o
+
+# target to build an object file
+11_clip_rendering.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_clip_rendering.dir/build.make CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o
+.PHONY : 11_clip_rendering.cpp.o
+
+11_clip_rendering.i: 11_clip_rendering.cpp.i
+.PHONY : 11_clip_rendering.i
+
+# target to preprocess a source file
+11_clip_rendering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_clip_rendering.dir/build.make CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.i
+.PHONY : 11_clip_rendering.cpp.i
+
+11_clip_rendering.s: 11_clip_rendering.cpp.s
+.PHONY : 11_clip_rendering.s
+
+# target to generate assembly for a file
+11_clip_rendering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_clip_rendering.dir/build.make CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.s
+.PHONY : 11_clip_rendering.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -428,6 +465,7 @@ help:
 	@echo "... 08_geometry_rendering"
 	@echo "... 09_the_viewport"
 	@echo "... 10_color_keying"
+	@echo "... 11_clip_rendering"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -452,6 +490,9 @@ help:
 	@echo "... 10_color_keying.o"
 	@echo "... 10_color_keying.i"
 	@echo "... 10_color_keying.s"
+	@echo "... 11_clip_rendering.o"
+	@echo "... 11_clip_rendering.i"
+	@echo "... 11_clip_rendering.s"
 .PHONY : help
 
 

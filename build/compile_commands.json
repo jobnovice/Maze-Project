@@ -46,5 +46,11 @@
   "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o -c /home/job/Maze-Project/10_color_keying.cpp",
   "file": "/home/job/Maze-Project/10_color_keying.cpp",
   "output": "CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o -c /home/job/Maze-Project/11_clip_rendering.cpp",
+  "file": "/home/job/Maze-Project/11_clip_rendering.cpp",
+  "output": "CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o"
 }
 ]

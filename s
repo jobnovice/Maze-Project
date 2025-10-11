@@ -1,0 +1,2 @@
+i see a lot of pent up aggresion and a lot of other things at large here so get a hold of yourself and shut up, suit up and show up eyob 
+you're too old for a lot of the things you're doing right now so make sure to allow yourself to let loose  i feel like genuinely this is you're own doing you need to stop letting yourself donw again and again so make sure to not succumb to any of the things that's getting thrown 

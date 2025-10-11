@@ -22,7 +22,7 @@ foreach(SRC_FILE ${SOURCE_FILES})
     
     # Create executable
     add_executable(${EXEC_NAME} ${SRC_FILE})
-    
+   file(COPY ${CMAKE_SOURCE_DIR}/Pics DESTINATION ${CMAKE_BINARY_DIR}) 
     # Link libraries
     target_link_libraries(${EXEC_NAME} 
         SDL2::SDL2 
