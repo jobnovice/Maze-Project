@@ -7,5 +7,6 @@
 /home/job/Maze-Project/build/CMakeFiles/09_the_viewport.dir
 /home/job/Maze-Project/build/CMakeFiles/10_color_keying.dir
 /home/job/Maze-Project/build/CMakeFiles/11_clip_rendering.dir
+/home/job/Maze-Project/build/CMakeFiles/12_color_modulation.dir
 /home/job/Maze-Project/build/CMakeFiles/edit_cache.dir
 /home/job/Maze-Project/build/CMakeFiles/rebuild_cache.dir

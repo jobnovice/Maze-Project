@@ -233,6 +233,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_clip_rendering.dir/build.make CMakeFiles/11_clip_rendering.dir/build
 .PHONY : 11_clip_rendering/fast
 
+#=============================================================================
+# Target rules for targets named 12_color_modulation
+
+# Build rule for target.
+12_color_modulation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_color_modulation
+.PHONY : 12_color_modulation
+
+# fast build rule for target.
+12_color_modulation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_color_modulation.dir/build.make CMakeFiles/12_color_modulation.dir/build
+.PHONY : 12_color_modulation/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -449,6 +462,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_clip_rendering.dir/build.make CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.s
 .PHONY : 11_clip_rendering.cpp.s
 
+12_color_modulation.o: 12_color_modulation.cpp.o
+.PHONY : 12_color_modulation.o
+
+# target to build an object file
+12_color_modulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_color_modulation.dir/build.make CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o
+.PHONY : 12_color_modulation.cpp.o
+
+12_color_modulation.i: 12_color_modulation.cpp.i
+.PHONY : 12_color_modulation.i
+
+# target to preprocess a source file
+12_color_modulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_color_modulation.dir/build.make CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.i
+.PHONY : 12_color_modulation.cpp.i
+
+12_color_modulation.s: 12_color_modulation.cpp.s
+.PHONY : 12_color_modulation.s
+
+# target to generate assembly for a file
+12_color_modulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_color_modulation.dir/build.make CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.s
+.PHONY : 12_color_modulation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -466,6 +503,7 @@ help:
 	@echo "... 09_the_viewport"
 	@echo "... 10_color_keying"
 	@echo "... 11_clip_rendering"
+	@echo "... 12_color_modulation"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -493,6 +531,9 @@ help:
 	@echo "... 11_clip_rendering.o"
 	@echo "... 11_clip_rendering.i"
 	@echo "... 11_clip_rendering.s"
+	@echo "... 12_color_modulation.o"
+	@echo "... 12_color_modulation.i"
+	@echo "... 12_color_modulation.s"
 .PHONY : help
 
 
