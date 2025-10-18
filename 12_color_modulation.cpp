@@ -12,6 +12,7 @@ SDL_Renderer *gRenderer;
 bool init();
 bool loadMedia();
 
+void close();
 class LTexture
 {
 	// constuctor and deconstructor
@@ -22,12 +23,12 @@ public:
 
 	bool loadFromSource(std::string path);
 
-	void render(int x, int y, SDL_Rect *clip);
+	void render(int x, int y, SDL_Rect *clip = NULL);
 
 	int getWidth();
 
 	int getHeight();
-
+	void setColor(Uint8 red, Uint8 green, Uint8 blue);
 	void free();
 
 private:
@@ -55,11 +56,24 @@ void LTexture::free()
 	if (mTexture)
 	{
 		SDL_DestroyTexture(mTexture);
+		mTexture = NULL;
 	}
 	mWidth = 0;
 	mHeight = 0;
 }
 
+void LTexture::render(int x, int y, SDL_Rect *clip)
+{
+	SDL_Rect renderQuad = {x, y, mWidth, mHeight};
+
+	if (clip != NULL)
+	{
+		renderQuad.w = clip->w;
+		renderQuad.h = clip->h;
+	}
+	// draw it to the backbuffer
+	SDL_RenderCopy(gRenderer, mTexture, clip, &renderQuad);
+}
 bool LTexture::loadFromSource(std::string path)
 {
 	bool success = true;
@@ -67,11 +81,13 @@ bool LTexture::loadFromSource(std::string path)
 
 	if (!image_me)
 	{
-		printf("Couldnot load the image: %s, SDL_Error: %s\n", path, IMG_GetError());
+		printf("Couldnot load the image: %s, SDL_Error: %s\n", path.c_str(), IMG_GetError());
 		success = false;
 	}
 	else
 	{
+		// color key image
+		SDL_SetColorKey(image_me, SDL_TRUE, SDL_MapRGB(image_me->format, 0, 0xFF, 0xFF));
 		SDL_Texture *tempo = SDL_CreateTextureFromSurface(gRenderer, image_me);
 
 		if (!tempo)
@@ -81,6 +97,8 @@ bool LTexture::loadFromSource(std::string path)
 		}
 		else
 		{
+			mWidth = image_me->w;
+			mHeight = image_me->h;
 			mTexture = tempo;
 		}
 	}
@@ -88,7 +106,12 @@ bool LTexture::loadFromSource(std::string path)
 	return success;
 }
 
-LTexture *newFund;
+void LTexture::setColor(Uint8 red, Uint8 green, Uint8 blue)
+{
+	// Modulate texture
+	SDL_SetTextureColorMod(mTexture, red, green, blue);
+}
+LTexture newFund;
 
 bool loadMedia()
 {
@@ -97,22 +120,31 @@ bool loadMedia()
 
 	bool success = true;
 
-	if (!newFund->loadFromSource("12-"))
+	if (!newFund.loadFromSource("Pics/colors.png"))
 	{
 		printf("Oops something got ");
 		success = false;
 	}
-	// else
-	// {
-
-	// }
+	return success;
 }
 
+void close()
+{
+	newFund.free();
+
+	SDL_DestroyRenderer(gRenderer);
+	SDL_DestroyWindow(gWindow);
+	gWindow = NULL;
+	gRenderer = NULL;
+
+	IMG_Quit();
+	SDL_Quit();
+}
 bool init()
 {
 	// allright let's initialize one by one
 
-	bool success = false;
+	bool success = true;
 
 	if (!SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
@@ -122,7 +154,7 @@ bool init()
 
 	else
 	{
-		if(!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1"))
+		if (!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1"))
 		{
 			printf("warning Linear Texure filtering not allowed");
 		}
@@ -143,7 +175,7 @@ bool init()
 		else
 		{
 			SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
-			
+
 			int imgFlags;
 			if (!IMG_Init(imgFlags) & imgFlags)
 			{
@@ -154,4 +186,79 @@ bool init()
 	}
 
 	return success;
+}
+
+int main(int argc, char *args[])
+{
+	if (!init())
+	{
+		printf("Oops some Library wasn't initalised properly");
+	}
+
+	else
+	{
+		if (!loadMedia())
+		{
+			printf("the media could not load the way we thought it would");
+		}
+		else
+		{
+			bool quit = false;
+			SDL_Event e;
+
+			Uint8 r = 255;
+			Uint8 g = 255;
+			Uint8 b = 255;
+
+			while (!quit)
+			{
+				while (SDL_PollEvent(&e) != 0)
+				{
+					if (e.type == SDL_QUIT)
+					{
+						quit = true;
+					}
+					else if (e.type == SDL_KEYDOWN)
+					{
+						switch (e.key.keysym.sym)
+						{
+						case SDLK_q:
+							r += 32;
+							break;
+
+						case SDLK_w:
+							g += 32;
+							break;
+
+						case SDLK_e:
+							b += 32;
+							break;
+
+						case SDLK_a:
+							r -= 32;
+							break;
+
+						case SDLK_s:
+							g -= 32;
+							break;
+
+						case SDLK_d:
+							b -= 32;
+							break;
+						}
+					}
+				}
+				SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
+				SDL_RenderClear(gRenderer);
+
+				newFund.setColor(r, g, b);
+				newFund.render(0, 0);
+
+				// update screen
+				SDL_RenderPresent(gRenderer);
+			}
+		}
+	}
+	close();
+	return 0;
 }
