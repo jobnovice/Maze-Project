@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o -o /home/job/Maze-Project/output/09_the_viewport  /usr/lib/x86_64-linux-gnu/libSDL2.so /usr/lib/x86_64-linux-gnu/libSDL2_image.so 
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/09_the_viewport.dir/link.d CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o -o /home/job/Maze-Project/output/09_the_viewport  /usr/lib/x86_64-linux-gnu/libSDL2.so /usr/lib/x86_64-linux-gnu/libSDL2_image.so

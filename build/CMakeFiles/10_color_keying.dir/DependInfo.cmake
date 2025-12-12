@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/job/Maze-Project/10_color_keying.cpp" "CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o" "gcc" "CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o.d"
+  "" "/home/job/Maze-Project/output/10_color_keying" "gcc" "CMakeFiles/10_color_keying.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

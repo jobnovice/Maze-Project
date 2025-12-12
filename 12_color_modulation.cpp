@@ -1,3 +1,22 @@
+/* 
+This program demonstrates color modulation in SDL2.
+
+Summary:
+1. Creates a window and renderer using SDL2
+2. Loads an image ("colors.png") as a texture
+3. Allows user to modify the RGB values of the texture using keyboard keys:
+   - Q/A: Increase/decrease red
+   - W/S: Increase/decrease green
+   - E/D: Increase/decrease blue
+4. The texture's color is modulated in real-time based on these RGB values
+
+Key Components:
+- LTexture: A class that handles loading and rendering textures with color modulation
+- init(): Initializes SDL2 and creates window/renderer
+- loadMedia(): Loads the image file
+- main(): Handles the event loop and color adjustments
+*/
+
 #include <iostream>
 #include <SDL2/SDL.h>
 #include <SDL_image.h>
@@ -11,30 +30,30 @@ SDL_Renderer *gRenderer;
 
 bool init();
 bool loadMedia();
-
 void close();
+
 class LTexture
 {
-	// constuctor and deconstructor
+	// Constructor and destructor
 public:
 	LTexture();
-
 	~LTexture();
 
+	// Core functionality
 	bool loadFromSource(std::string path);
-
 	void render(int x, int y, SDL_Rect *clip = NULL);
-
-	int getWidth();
-
-	int getHeight();
-	void setColor(Uint8 red, Uint8 green, Uint8 blue);
 	void free();
+
+	// Color modulation
+	void setColor(Uint8 red, Uint8 green, Uint8 blue);
+	
+	// Getters
+	int getWidth();
+	int getHeight();
 
 private:
 	int mWidth;
 	int mHeight;
-
 	SDL_Texture *mTexture;
 };
 
@@ -47,7 +66,6 @@ LTexture::LTexture()
 
 LTexture::~LTexture()
 {
-
 	free();
 }
 
@@ -71,9 +89,10 @@ void LTexture::render(int x, int y, SDL_Rect *clip)
 		renderQuad.w = clip->w;
 		renderQuad.h = clip->h;
 	}
-	// draw it to the backbuffer
+	// Draw texture to the backbuffer
 	SDL_RenderCopy(gRenderer, mTexture, clip, &renderQuad);
 }
+
 bool LTexture::loadFromSource(std::string path)
 {
 	bool success = true;
@@ -81,18 +100,18 @@ bool LTexture::loadFromSource(std::string path)
 
 	if (!image_me)
 	{
-		printf("Couldnot load the image: %s, SDL_Error: %s\n", path.c_str(), IMG_GetError());
+		printf("Could not load the image: %s, SDL_Error: %s\n", path.c_str(), IMG_GetError());
 		success = false;
 	}
 	else
 	{
-		// color key image
+		// Make cyan (0, 255, 255) transparent
 		SDL_SetColorKey(image_me, SDL_TRUE, SDL_MapRGB(image_me->format, 0, 0xFF, 0xFF));
 		SDL_Texture *tempo = SDL_CreateTextureFromSurface(gRenderer, image_me);
 
 		if (!tempo)
 		{
-			printf("cannot create Texture from the surface SDL_Error: %s\n", SDL_GetError());
+			printf("Cannot create texture from the surface SDL_Error: %s\n", SDL_GetError());
 			success = false;
 		}
 		else
@@ -108,21 +127,20 @@ bool LTexture::loadFromSource(std::string path)
 
 void LTexture::setColor(Uint8 red, Uint8 green, Uint8 blue)
 {
-	// Modulate texture
+	// Modulate texture color (tints the texture with specified RGB values)
 	SDL_SetTextureColorMod(mTexture, red, green, blue);
 }
+
+// Global texture to be displayed
 LTexture newFund;
 
 bool loadMedia()
 {
-	// we're going to be calling our trxture
-	//..media loading functionlaity here
-
 	bool success = true;
 
 	if (!newFund.loadFromSource("Pics/colors.png"))
 	{
-		printf("Oops something got ");
+		printf("Failed to load colors texture");
 		success = false;
 	}
 	return success;
@@ -130,6 +148,7 @@ bool loadMedia()
 
 void close()
 {
+	// Clean up resources
 	newFund.free();
 
 	SDL_DestroyRenderer(gRenderer);
@@ -140,46 +159,49 @@ void close()
 	IMG_Quit();
 	SDL_Quit();
 }
+
 bool init()
 {
-	// allright let's initialize one by one
-
 	bool success = true;
 
 	if (!SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
-		printf("could not initalize the video sub-system, SDL_Error: %s\n", SDL_GetError());
+		printf("Could not initialize the video sub-system, SDL_Error: %s\n", SDL_GetError());
 		success = false;
 	}
-
 	else
 	{
+		// Set texture filtering to linear
 		if (!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1"))
 		{
-			printf("warning Linear Texure filtering not allowed");
+			printf("Warning: Linear texture filtering not enabled");
 		}
 
-		gWindow = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+		// Create window
+		gWindow = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 
+                                  SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 		if (!gWindow)
 		{
-			printf("couldnot create the window, SDL_Error: %s\n", SDL_GetError());
+			printf("Could not create the window, SDL_Error: %s\n", SDL_GetError());
 			success = false;
 		}
 
+		// Create renderer
 		gRenderer = SDL_CreateRenderer(gWindow, -1, SDL_RENDERER_ACCELERATED);
 		if (!gRenderer)
 		{
-			printf("Renderer not intialized, SDL_Error: %s\n", SDL_GetError());
+			printf("Renderer not initialized, SDL_Error: %s\n", SDL_GetError());
 			success = false;
 		}
 		else
 		{
 			SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
 
-			int imgFlags;
-			if (!IMG_Init(imgFlags) & imgFlags)
+			// Initialize SDL_image
+			int imgFlags = IMG_INIT_PNG;
+			if (!(IMG_Init(imgFlags) & imgFlags))
 			{
-				printf("coulnot initliaze the image library, SDL_Error:%s\n", IMG_GetError());
+				printf("Could not initialize the image library, SDL_Error: %s\n", IMG_GetError());
 				success = false;
 			}
 		}
@@ -192,26 +214,27 @@ int main(int argc, char *args[])
 {
 	if (!init())
 	{
-		printf("Oops some Library wasn't initalised properly");
+		printf("Failed to initialize\n");
 	}
-
 	else
 	{
 		if (!loadMedia())
 		{
-			printf("the media could not load the way we thought it would");
+			printf("Failed to load media\n");
 		}
 		else
 		{
 			bool quit = false;
 			SDL_Event e;
 
+			// RGB color values for modulation (initially white)
 			Uint8 r = 255;
 			Uint8 g = 255;
 			Uint8 b = 255;
 
 			while (!quit)
 			{
+				// Handle events
 				while (SDL_PollEvent(&e) != 0)
 				{
 					if (e.type == SDL_QUIT)
@@ -220,45 +243,45 @@ int main(int argc, char *args[])
 					}
 					else if (e.type == SDL_KEYDOWN)
 					{
+						// Adjust RGB values with keyboard
 						switch (e.key.keysym.sym)
 						{
-						case SDLK_q:
+						case SDLK_q: // Increase red
 							r += 32;
 							break;
-
-						case SDLK_w:
+						case SDLK_w: // Increase green
 							g += 32;
 							break;
-
-						case SDLK_e:
+						case SDLK_e: // Increase blue
 							b += 32;
 							break;
-
-						case SDLK_a:
+						case SDLK_a: // Decrease red
 							r -= 32;
 							break;
-
-						case SDLK_s:
+						case SDLK_s: // Decrease green
 							g -= 32;
 							break;
-
-						case SDLK_d:
+						case SDLK_d: // Decrease blue
 							b -= 32;
 							break;
 						}
 					}
 				}
+                
+				// Clear screen with white
 				SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
 				SDL_RenderClear(gRenderer);
 
+				// Set color modulation and render texture
 				newFund.setColor(r, g, b);
 				newFund.render(0, 0);
 
-				// update screen
+				// Update screen
 				SDL_RenderPresent(gRenderer);
 			}
 		}
 	}
+    
 	close();
 	return 0;
 }

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/03_event_driven_programming.dir/link.d"
   "/home/job/Maze-Project/output/03_event_driven_programming"
   "/home/job/Maze-Project/output/03_event_driven_programming.pdb"
   "CMakeFiles/03_event_driven_programming.dir/03_event_driven_programming.cpp.o"

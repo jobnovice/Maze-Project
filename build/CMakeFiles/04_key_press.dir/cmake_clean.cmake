@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/04_key_press.dir/link.d"
   "/home/job/Maze-Project/output/04_key_press"
   "/home/job/Maze-Project/output/04_key_press.pdb"
   "CMakeFiles/04_key_press.dir/04_key_press.cpp.o"

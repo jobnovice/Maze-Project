@@ -24,7 +24,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -48,7 +49,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -123,6 +125,13 @@
 					"jsonFile" : "target-12_color_modulation-Debug-3f83fa92b94928373c97.json",
 					"name" : "12_color_modulation",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_alpha_bending::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_alpha_bending-Debug-eb3bdf3df13ad8b5ff5e.json",
+					"name" : "13_alpha_bending",
+					"projectIndex" : 0
 				}
 			]
 		}
@@ -136,6 +145,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

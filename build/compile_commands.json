@@ -58,5 +58,11 @@
   "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o -c /home/job/Maze-Project/12_color_modulation.cpp",
   "file": "/home/job/Maze-Project/12_color_modulation.cpp",
   "output": "CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o -c /home/job/Maze-Project/13_alpha_bending.cpp",
+  "file": "/home/job/Maze-Project/13_alpha_bending.cpp",
+  "output": "CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o"
 }
 ]

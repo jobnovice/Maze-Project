@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/07_texture_loading_and_rendering.dir/link.d"
   "/home/job/Maze-Project/output/07_texture_loading_and_rendering"
   "/home/job/Maze-Project/output/07_texture_loading_and_rendering.pdb"
   "CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o"
