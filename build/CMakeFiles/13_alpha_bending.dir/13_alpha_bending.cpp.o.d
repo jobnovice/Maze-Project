@@ -1,7 +1,6 @@
-CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o: \
- /home/job/Maze-Project/12_color_modulation.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/15/iostream \
- /usr/include/c++/15/bits/requires_hosted.h \
+CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o: \
+ /home/job/Maze-Project/13_alpha_bending.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
