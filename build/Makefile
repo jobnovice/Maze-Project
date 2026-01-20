@@ -259,6 +259,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_alpha_bending.dir/build.make CMakeFiles/13_alpha_bending.dir/build
 .PHONY : 13_alpha_bending/fast
 
+#=============================================================================
+# Target rules for targets named 14_animated_sprites_and_vsync
+
+# Build rule for target.
+14_animated_sprites_and_vsync: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 14_animated_sprites_and_vsync
+.PHONY : 14_animated_sprites_and_vsync
+
+# fast build rule for target.
+14_animated_sprites_and_vsync/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_animated_sprites_and_vsync.dir/build.make CMakeFiles/14_animated_sprites_and_vsync.dir/build
+.PHONY : 14_animated_sprites_and_vsync/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -523,6 +536,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_alpha_bending.dir/build.make CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.s
 .PHONY : 13_alpha_bending.cpp.s
 
+14_animated_sprites_and_vsync.o: 14_animated_sprites_and_vsync.cpp.o
+.PHONY : 14_animated_sprites_and_vsync.o
+
+# target to build an object file
+14_animated_sprites_and_vsync.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_animated_sprites_and_vsync.dir/build.make CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o
+.PHONY : 14_animated_sprites_and_vsync.cpp.o
+
+14_animated_sprites_and_vsync.i: 14_animated_sprites_and_vsync.cpp.i
+.PHONY : 14_animated_sprites_and_vsync.i
+
+# target to preprocess a source file
+14_animated_sprites_and_vsync.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_animated_sprites_and_vsync.dir/build.make CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.i
+.PHONY : 14_animated_sprites_and_vsync.cpp.i
+
+14_animated_sprites_and_vsync.s: 14_animated_sprites_and_vsync.cpp.s
+.PHONY : 14_animated_sprites_and_vsync.s
+
+# target to generate assembly for a file
+14_animated_sprites_and_vsync.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_animated_sprites_and_vsync.dir/build.make CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.s
+.PHONY : 14_animated_sprites_and_vsync.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -542,6 +579,7 @@ help:
 	@echo "... 11_clip_rendering"
 	@echo "... 12_color_modulation"
 	@echo "... 13_alpha_bending"
+	@echo "... 14_animated_sprites_and_vsync"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -575,6 +613,9 @@ help:
 	@echo "... 13_alpha_bending.o"
 	@echo "... 13_alpha_bending.i"
 	@echo "... 13_alpha_bending.s"
+	@echo "... 14_animated_sprites_and_vsync.o"
+	@echo "... 14_animated_sprites_and_vsync.i"
+	@echo "... 14_animated_sprites_and_vsync.s"
 .PHONY : help
 
 

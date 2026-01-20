@@ -25,7 +25,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -50,7 +51,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -131,6 +133,13 @@
 					"id" : "13_alpha_bending::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-13_alpha_bending-Debug-eb3bdf3df13ad8b5ff5e.json",
 					"name" : "13_alpha_bending",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_animated_sprites_and_vsync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_animated_sprites_and_vsync-Debug-2d445553e8ca2fd79a7a.json",
+					"name" : "14_animated_sprites_and_vsync",
 					"projectIndex" : 0
 				}
 			]
