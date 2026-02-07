@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/11_clip_rendering.dir/link.d"
-  "/home/job/Maze-Project/output/11_clip_rendering"
-  "/home/job/Maze-Project/output/11_clip_rendering.pdb"
+  "/Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering"
+  "/Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering.pdb"
   "CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o"
   "CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o.d"
 )

@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/job/Maze-Project/07_texture_loading_and_rendering.cpp" "CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o" "gcc" "CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o.d"
-  "" "/home/job/Maze-Project/output/07_texture_loading_and_rendering" "gcc" "CMakeFiles/07_texture_loading_and_rendering.dir/link.d"
+  "/Users/jobkebede/Documents/Maze-Project/07_texture_loading_and_rendering.cpp" "CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o" "gcc" "CMakeFiles/07_texture_loading_and_rendering.dir/07_texture_loading_and_rendering.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

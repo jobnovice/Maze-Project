@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/job/Maze-Project/14_animated_sprites_and_vsync.cpp" "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o" "gcc" "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o.d"
-  "" "/home/job/Maze-Project/output/14_animated_sprites_and_vsync" "gcc" "CMakeFiles/14_animated_sprites_and_vsync.dir/link.d"
+  "/Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp" "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o" "gcc" "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

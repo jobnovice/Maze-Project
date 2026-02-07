@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/12_color_modulation.dir/link.d"
-  "/home/job/Maze-Project/output/12_color_modulation"
-  "/home/job/Maze-Project/output/12_color_modulation.pdb"
+  "/Users/jobkebede/Documents/Maze-Project/output/12_color_modulation"
+  "/Users/jobkebede/Documents/Maze-Project/output/12_color_modulation.pdb"
   "CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o"
   "CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o.d"
 )

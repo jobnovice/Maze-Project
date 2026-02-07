@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/job/Maze-Project/11_clip_rendering.cpp" "CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o" "gcc" "CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o.d"
-  "" "/home/job/Maze-Project/output/11_clip_rendering" "gcc" "CMakeFiles/11_clip_rendering.dir/link.d"
+  "/Users/jobkebede/Documents/Maze-Project/11_clip_rendering.cpp" "CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o" "gcc" "CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
