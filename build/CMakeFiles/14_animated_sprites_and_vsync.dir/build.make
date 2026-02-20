@@ -76,15 +76,15 @@ CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o
 CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o: /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp
 CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o: CMakeFiles/14_animated_sprites_and_vsync.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o -MF CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o.d -o CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o -c /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o -MF CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o.d -o CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o -c /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp
 
 CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp > CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp > CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.i
 
 CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp -o CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp -o CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.s
 
 # Object files for target 14_animated_sprites_and_vsync
 14_animated_sprites_and_vsync_OBJECTS = \

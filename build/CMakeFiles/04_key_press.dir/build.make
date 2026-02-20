@@ -76,15 +76,15 @@ CMakeFiles/04_key_press.dir/04_key_press.cpp.o: CMakeFiles/04_key_press.dir/flag
 CMakeFiles/04_key_press.dir/04_key_press.cpp.o: /Users/jobkebede/Documents/Maze-Project/04_key_press.cpp
 CMakeFiles/04_key_press.dir/04_key_press.cpp.o: CMakeFiles/04_key_press.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/04_key_press.dir/04_key_press.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/04_key_press.dir/04_key_press.cpp.o -MF CMakeFiles/04_key_press.dir/04_key_press.cpp.o.d -o CMakeFiles/04_key_press.dir/04_key_press.cpp.o -c /Users/jobkebede/Documents/Maze-Project/04_key_press.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/04_key_press.dir/04_key_press.cpp.o -MF CMakeFiles/04_key_press.dir/04_key_press.cpp.o.d -o CMakeFiles/04_key_press.dir/04_key_press.cpp.o -c /Users/jobkebede/Documents/Maze-Project/04_key_press.cpp
 
 CMakeFiles/04_key_press.dir/04_key_press.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/04_key_press.dir/04_key_press.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/04_key_press.cpp > CMakeFiles/04_key_press.dir/04_key_press.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/04_key_press.cpp > CMakeFiles/04_key_press.dir/04_key_press.cpp.i
 
 CMakeFiles/04_key_press.dir/04_key_press.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/04_key_press.dir/04_key_press.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/04_key_press.cpp -o CMakeFiles/04_key_press.dir/04_key_press.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/04_key_press.cpp -o CMakeFiles/04_key_press.dir/04_key_press.cpp.s
 
 # Object files for target 04_key_press
 04_key_press_OBJECTS = \

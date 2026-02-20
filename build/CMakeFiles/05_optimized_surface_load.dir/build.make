@@ -76,15 +76,15 @@ CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o: CMakeF
 CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o: /Users/jobkebede/Documents/Maze-Project/05_optimized_surface_load.cpp
 CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o: CMakeFiles/05_optimized_surface_load.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o -MF CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o.d -o CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o -c /Users/jobkebede/Documents/Maze-Project/05_optimized_surface_load.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o -MF CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o.d -o CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o -c /Users/jobkebede/Documents/Maze-Project/05_optimized_surface_load.cpp
 
 CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/05_optimized_surface_load.cpp > CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/05_optimized_surface_load.cpp > CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.i
 
 CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/05_optimized_surface_load.cpp -o CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/05_optimized_surface_load.cpp -o CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.s
 
 # Object files for target 05_optimized_surface_load
 05_optimized_surface_load_OBJECTS = \

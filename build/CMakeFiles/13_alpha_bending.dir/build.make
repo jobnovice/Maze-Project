@@ -76,15 +76,15 @@ CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o: CMakeFiles/13_alpha_bend
 CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o: /Users/jobkebede/Documents/Maze-Project/13_alpha_bending.cpp
 CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o: CMakeFiles/13_alpha_bending.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o -MF CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o.d -o CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o -c /Users/jobkebede/Documents/Maze-Project/13_alpha_bending.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o -MF CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o.d -o CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o -c /Users/jobkebede/Documents/Maze-Project/13_alpha_bending.cpp
 
 CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/13_alpha_bending.cpp > CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/13_alpha_bending.cpp > CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.i
 
 CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/13_alpha_bending.cpp -o CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/13_alpha_bending.cpp -o CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.s
 
 # Object files for target 13_alpha_bending
 13_alpha_bending_OBJECTS = \

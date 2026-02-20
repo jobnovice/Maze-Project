@@ -76,15 +76,15 @@ CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o: CMakeFiles/12_colo
 CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o: /Users/jobkebede/Documents/Maze-Project/12_color_modulation.cpp
 CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o: CMakeFiles/12_color_modulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o -MF CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o.d -o CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o -c /Users/jobkebede/Documents/Maze-Project/12_color_modulation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o -MF CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o.d -o CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.o -c /Users/jobkebede/Documents/Maze-Project/12_color_modulation.cpp
 
 CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/12_color_modulation.cpp > CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/12_color_modulation.cpp > CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.i
 
 CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/12_color_modulation.cpp -o CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/12_color_modulation.cpp -o CMakeFiles/12_color_modulation.dir/12_color_modulation.cpp.s
 
 # Object files for target 12_color_modulation
 12_color_modulation_OBJECTS = \
