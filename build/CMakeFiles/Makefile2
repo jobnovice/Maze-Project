@@ -75,6 +75,7 @@ all: CMakeFiles/11_clip_rendering.dir/all
 all: CMakeFiles/12_color_modulation.dir/all
 all: CMakeFiles/13_alpha_bending.dir/all
 all: CMakeFiles/14_animated_sprites_and_vsync.dir/all
+all: CMakeFiles/15_rotation_and_flipping.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -90,6 +91,7 @@ codegen: CMakeFiles/11_clip_rendering.dir/codegen
 codegen: CMakeFiles/12_color_modulation.dir/codegen
 codegen: CMakeFiles/13_alpha_bending.dir/codegen
 codegen: CMakeFiles/14_animated_sprites_and_vsync.dir/codegen
+codegen: CMakeFiles/15_rotation_and_flipping.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -109,6 +111,7 @@ clean: CMakeFiles/11_clip_rendering.dir/clean
 clean: CMakeFiles/12_color_modulation.dir/clean
 clean: CMakeFiles/13_alpha_bending.dir/clean
 clean: CMakeFiles/14_animated_sprites_and_vsync.dir/clean
+clean: CMakeFiles/15_rotation_and_flipping.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -494,6 +497,38 @@ CMakeFiles/14_animated_sprites_and_vsync.dir/codegen:
 CMakeFiles/14_animated_sprites_and_vsync.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_animated_sprites_and_vsync.dir/build.make CMakeFiles/14_animated_sprites_and_vsync.dir/clean
 .PHONY : CMakeFiles/14_animated_sprites_and_vsync.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/15_rotation_and_flipping.dir
+
+# All Build rule for target.
+CMakeFiles/15_rotation_and_flipping.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=25,26 "Built target 15_rotation_and_flipping"
+.PHONY : CMakeFiles/15_rotation_and_flipping.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/15_rotation_and_flipping.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/15_rotation_and_flipping.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 0
+.PHONY : CMakeFiles/15_rotation_and_flipping.dir/rule
+
+# Convenience name for target.
+15_rotation_and_flipping: CMakeFiles/15_rotation_and_flipping.dir/rule
+.PHONY : 15_rotation_and_flipping
+
+# codegen rule for target.
+CMakeFiles/15_rotation_and_flipping.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=25,26 "Finished codegen for target 15_rotation_and_flipping"
+.PHONY : CMakeFiles/15_rotation_and_flipping.dir/codegen
+
+# clean rule for target.
+CMakeFiles/15_rotation_and_flipping.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/clean
+.PHONY : CMakeFiles/15_rotation_and_flipping.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

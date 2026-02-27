@@ -86,4 +86,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/12_color_modulation.dir/DependInfo.cmake"
   "CMakeFiles/13_alpha_bending.dir/DependInfo.cmake"
   "CMakeFiles/14_animated_sprites_and_vsync.dir/DependInfo.cmake"
+  "CMakeFiles/15_rotation_and_flipping.dir/DependInfo.cmake"
   )

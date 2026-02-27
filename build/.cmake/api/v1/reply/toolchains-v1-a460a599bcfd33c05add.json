@@ -10,7 +10,7 @@
 				{
 					"includeDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
+						"/Library/Developer/CommandLineTools/usr/lib/clang/17/include",
 						"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
 						"/Library/Developer/CommandLineTools/usr/include"
 					],
@@ -26,7 +26,7 @@
 					"linkLibraries" : []
 				},
 				"path" : "/usr/bin/clang",
-				"version" : "16.0.0.16000026"
+				"version" : "17.0.0.17000604"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -44,7 +44,7 @@
 					"includeDirectories" : 
 					[
 						"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1",
-						"/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
+						"/Library/Developer/CommandLineTools/usr/lib/clang/17/include",
 						"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
 						"/Library/Developer/CommandLineTools/usr/include"
 					],
@@ -63,7 +63,7 @@
 					]
 				},
 				"path" : "/usr/bin/clang++",
-				"version" : "16.0.0.16000026"
+				"version" : "17.0.0.17000604"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 

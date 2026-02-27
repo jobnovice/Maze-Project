@@ -1,6 +1,7 @@
 {
     "cmake.buildDirectory": "${workspaceFolder}/build",
     "cmake.configureOnOpen": true,
+	"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
 	"cmake.generator": "Unix Makefiles",
 	"files.associations": {
 		"*.embeddedhtml": "html",

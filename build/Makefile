@@ -272,6 +272,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_animated_sprites_and_vsync.dir/build.make CMakeFiles/14_animated_sprites_and_vsync.dir/build
 .PHONY : 14_animated_sprites_and_vsync/fast
 
+#=============================================================================
+# Target rules for targets named 15_rotation_and_flipping
+
+# Build rule for target.
+15_rotation_and_flipping: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_rotation_and_flipping
+.PHONY : 15_rotation_and_flipping
+
+# fast build rule for target.
+15_rotation_and_flipping/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/build
+.PHONY : 15_rotation_and_flipping/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -560,6 +573,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_animated_sprites_and_vsync.dir/build.make CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.s
 .PHONY : 14_animated_sprites_and_vsync.cpp.s
 
+15_rotation_and_flipping.o: 15_rotation_and_flipping.cpp.o
+.PHONY : 15_rotation_and_flipping.o
+
+# target to build an object file
+15_rotation_and_flipping.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o
+.PHONY : 15_rotation_and_flipping.cpp.o
+
+15_rotation_and_flipping.i: 15_rotation_and_flipping.cpp.i
+.PHONY : 15_rotation_and_flipping.i
+
+# target to preprocess a source file
+15_rotation_and_flipping.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.i
+.PHONY : 15_rotation_and_flipping.cpp.i
+
+15_rotation_and_flipping.s: 15_rotation_and_flipping.cpp.s
+.PHONY : 15_rotation_and_flipping.s
+
+# target to generate assembly for a file
+15_rotation_and_flipping.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.s
+.PHONY : 15_rotation_and_flipping.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -580,6 +617,7 @@ help:
 	@echo "... 12_color_modulation"
 	@echo "... 13_alpha_bending"
 	@echo "... 14_animated_sprites_and_vsync"
+	@echo "... 15_rotation_and_flipping"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -616,6 +654,9 @@ help:
 	@echo "... 14_animated_sprites_and_vsync.o"
 	@echo "... 14_animated_sprites_and_vsync.i"
 	@echo "... 14_animated_sprites_and_vsync.s"
+	@echo "... 15_rotation_and_flipping.o"
+	@echo "... 15_rotation_and_flipping.i"
+	@echo "... 15_rotation_and_flipping.s"
 .PHONY : help
 
 

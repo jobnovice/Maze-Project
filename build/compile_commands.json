@@ -70,5 +70,11 @@
   "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sdl2/2.32.10/include -isystem /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2 -isystem /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2 -g -std=gnu++11 -arch arm64 -o CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o -c /Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp",
   "file": "/Users/jobkebede/Documents/Maze-Project/14_animated_sprites_and_vsync.cpp",
   "output": "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o"
+},
+{
+  "directory": "/Users/jobkebede/Documents/Maze-Project/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/sdl2/2.32.10/include -isystem /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2 -isystem /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2 -g -std=gnu++11 -arch arm64 -o CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o -c /Users/jobkebede/Documents/Maze-Project/15_rotation_and_flipping.cpp",
+  "file": "/Users/jobkebede/Documents/Maze-Project/15_rotation_and_flipping.cpp",
+  "output": "CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o"
 }
 ]
