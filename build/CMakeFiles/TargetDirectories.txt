@@ -11,5 +11,6 @@
 /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/13_alpha_bending.dir
 /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/14_animated_sprites_and_vsync.dir
 /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/15_rotation_and_flipping.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/16_true_type_fonts.dir
 /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/edit_cache.dir
 /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/rebuild_cache.dir

@@ -1050,8 +1050,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4"
-      binary: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4"
+      source: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk"
+      binary: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1063,18 +1063,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4'
+        Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1833/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1833.dir/build.make CMakeFiles/cmTC_a1833.dir/build
-        Building C object CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o
-        /usr/bin/clang   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_221cc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_221cc.dir/build.make CMakeFiles/cmTC_221cc.dir/build
+        Building C object CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1087,13 +1087,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_a1833
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1833.dir/link.txt --verbose=1
+        Linking C executable cmTC_221cc
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_221cc.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a1833 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_221cc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1105,7 +1105,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/clang  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -o cmTC_a1833
+        /usr/bin/clang  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -o cmTC_221cc
         
       exitCode: 0
   -
@@ -1147,18 +1147,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4']
+        ignore line: [Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1833/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1833.dir/build.make CMakeFiles/cmTC_a1833.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/clang   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_221cc/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_221cc.dir/build.make CMakeFiles/cmTC_221cc.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-UWvph4 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-DEBpFk -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1171,13 +1171,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_a1833]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1833.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_221cc]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_221cc.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a1833 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_221cc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1194,12 +1194,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a1833] ==> ignore
+          arg [cmTC_221cc] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_a1833.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_221cc.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1241,8 +1241,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416"
-      binary: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416"
+      source: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK"
+      binary: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1255,19 +1255,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416'
+        Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6505/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d6505.dir/build.make CMakeFiles/cmTC_d6505.dir/build
-        Building CXX object CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea7d9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ea7d9.dir/build.make CMakeFiles/cmTC_ea7d9.dir/build
+        Building CXX object CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1281,13 +1281,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_d6505
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6505.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_ea7d9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7d9.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin25.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_d6505 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ea7d9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1299,7 +1299,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d6505
+        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ea7d9
         
       exitCode: 0
   -
@@ -1343,19 +1343,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416']
+        ignore line: [Change Dir: '/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6505/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d6505.dir/build.make CMakeFiles/cmTC_d6505.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea7d9/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ea7d9.dir/build.make CMakeFiles/cmTC_ea7d9.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-yTO416 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/CMakeScratch/TryCompile-aaNfuK -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin25.3.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1369,13 +1369,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_d6505]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6505.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_ea7d9]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7d9.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin25.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_d6505 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ea7d9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1392,12 +1392,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d6505] ==> ignore
+          arg [cmTC_ea7d9] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_d6505.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ea7d9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1434,7 +1434,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:12 (find_package)"
+      - "CMakeLists.txt:16 (find_package)"
     name: "SDL2"
     configs:
       -
@@ -1472,22 +1472,6 @@ events:
         reason: "no_exist"
       -
         path: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/pkgRedirects/sdl2-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.nvm/versions/node/v18.20.8/SDL2Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.nvm/versions/node/v18.20.8/sdl2-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.local/SDL2Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.local/sdl2-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1531,6 +1515,8 @@ events:
       mode: "config"
       version: "2.32.10"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -1577,7 +1563,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:57 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "webp_LIBRARY"
     description: "Path to a library."
@@ -1592,6 +1578,8 @@ events:
     names:
       - "webp"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -1604,31 +1592,19 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
     found: "/opt/homebrew/lib/libwebp.dylib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -1677,7 +1653,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:57 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "webp_INCLUDE_PATH"
     description: "Path to a file."
@@ -1692,6 +1668,8 @@ events:
     names:
       - "webp/decode.h"
     candidate_directories:
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -1708,8 +1686,6 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1735,6 +1711,8 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/include/webp.framework/Headers/decode.h"
+      - "/opt/homebrew/webp.framework/Headers/decode.h"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/webp.framework/Headers/decode.h"
       - "/Users/jobkebede/.local/bin/webp.framework/Headers/decode.h"
       - "/opt/homebrew/bin/webp.framework/Headers/decode.h"
@@ -1751,8 +1729,6 @@ events:
       - "/opt/pmk/env/global/bin/webp.framework/Headers/decode.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/webp.framework/Headers/decode.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/webp.framework/Headers/decode.h"
-      - "/opt/homebrew/include/webp.framework/Headers/decode.h"
-      - "/opt/homebrew/webp.framework/Headers/decode.h"
       - "/usr/local/include/webp.framework/Headers/decode.h"
       - "/usr/local/webp.framework/Headers/decode.h"
       - "/usr/include/webp.framework/Headers/decode.h"
@@ -1777,24 +1753,10 @@ events:
       - "/Library/Frameworks/webp.framework/Headers/decode.h"
       - "/Network/Library/Frameworks/webp.framework/Headers/decode.h"
       - "/System/Library/Frameworks/webp.framework/Headers/decode.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/webp/decode.h"
-      - "/Users/jobkebede/.local/bin/webp/decode.h"
-      - "/opt/homebrew/bin/webp/decode.h"
-      - "/opt/homebrew/sbin/webp/decode.h"
-      - "/usr/local/bin/webp/decode.h"
-      - "/System/Cryptexes/App/usr/bin/webp/decode.h"
-      - "/usr/bin/webp/decode.h"
-      - "/bin/webp/decode.h"
-      - "/usr/sbin/webp/decode.h"
-      - "/sbin/webp/decode.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/webp/decode.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/webp/decode.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/webp/decode.h"
-      - "/opt/pmk/env/global/bin/webp/decode.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/webp/decode.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/webp/decode.h"
     found: "/opt/homebrew/include/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -1843,7 +1805,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:57 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "webpdemux_LIBRARY"
     description: "Path to a library."
@@ -1858,6 +1820,8 @@ events:
     names:
       - "webpdemux"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -1870,31 +1834,19 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
     found: "/opt/homebrew/lib/libwebpdemux.dylib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -1943,7 +1895,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:57 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "webpdemux_INCLUDE_PATH"
     description: "Path to a file."
@@ -1958,6 +1910,8 @@ events:
     names:
       - "webp/demux.h"
     candidate_directories:
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -1974,8 +1928,6 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -2001,6 +1953,8 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/include/webp.framework/Headers/demux.h"
+      - "/opt/homebrew/webp.framework/Headers/demux.h"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/webp.framework/Headers/demux.h"
       - "/Users/jobkebede/.local/bin/webp.framework/Headers/demux.h"
       - "/opt/homebrew/bin/webp.framework/Headers/demux.h"
@@ -2017,8 +1971,6 @@ events:
       - "/opt/pmk/env/global/bin/webp.framework/Headers/demux.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/webp.framework/Headers/demux.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/webp.framework/Headers/demux.h"
-      - "/opt/homebrew/include/webp.framework/Headers/demux.h"
-      - "/opt/homebrew/webp.framework/Headers/demux.h"
       - "/usr/local/include/webp.framework/Headers/demux.h"
       - "/usr/local/webp.framework/Headers/demux.h"
       - "/usr/include/webp.framework/Headers/demux.h"
@@ -2043,24 +1995,10 @@ events:
       - "/Library/Frameworks/webp.framework/Headers/demux.h"
       - "/Network/Library/Frameworks/webp.framework/Headers/demux.h"
       - "/System/Library/Frameworks/webp.framework/Headers/demux.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/webp/demux.h"
-      - "/Users/jobkebede/.local/bin/webp/demux.h"
-      - "/opt/homebrew/bin/webp/demux.h"
-      - "/opt/homebrew/sbin/webp/demux.h"
-      - "/usr/local/bin/webp/demux.h"
-      - "/System/Cryptexes/App/usr/bin/webp/demux.h"
-      - "/usr/bin/webp/demux.h"
-      - "/bin/webp/demux.h"
-      - "/usr/sbin/webp/demux.h"
-      - "/sbin/webp/demux.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/webp/demux.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/webp/demux.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/webp/demux.h"
-      - "/opt/pmk/env/global/bin/webp/demux.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/webp/demux.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/webp/demux.h"
     found: "/opt/homebrew/include/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -2108,7 +2046,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:61 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     name: "libavif"
     configs:
       -
@@ -2149,22 +2087,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/jobkebede/.nvm/versions/node/v18.20.8/libavifConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.nvm/versions/node/v18.20.8/libavif-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.local/libavifConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.local/libavif-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/opt/homebrew/libavifConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2181,6 +2103,8 @@ events:
       mode: "config"
       version: "1.3.0"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -2229,7 +2153,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:65 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     name: "Tiff"
     configs:
       -
@@ -2270,6 +2194,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/opt/homebrew/TiffConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/tiff-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/Users/jobkebede/.nvm/versions/node/v18.20.8/TiffConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2283,14 +2215,6 @@ events:
         reason: "no_exist"
       -
         path: "/Users/jobkebede/.local/tiff-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/homebrew/TiffConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/homebrew/tiff-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2339,6 +2263,14 @@ events:
         reason: "no_exist"
       -
         path: "/opt/tiff-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/jobkebede/Library/Frameworks/TiffConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/jobkebede/Library/Frameworks/tiff-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2391,6 +2323,8 @@ events:
         reason: "no_exist"
     found: null
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -2437,7 +2371,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:65 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "TIFF_INCLUDE_DIR"
     description: "Path to a file."
@@ -2452,6 +2386,8 @@ events:
     names:
       - "tiff.h"
     candidate_directories:
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2468,8 +2404,6 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -2494,25 +2428,10 @@ events:
       - "/Library/Frameworks/"
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/tiff.h"
-      - "/Users/jobkebede/.local/bin/tiff.h"
-      - "/opt/homebrew/bin/tiff.h"
-      - "/opt/homebrew/sbin/tiff.h"
-      - "/usr/local/bin/tiff.h"
-      - "/System/Cryptexes/App/usr/bin/tiff.h"
-      - "/usr/bin/tiff.h"
-      - "/bin/tiff.h"
-      - "/usr/sbin/tiff.h"
-      - "/sbin/tiff.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tiff.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tiff.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tiff.h"
-      - "/opt/pmk/env/global/bin/tiff.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tiff.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/tiff.h"
     found: "/opt/homebrew/include/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -2561,7 +2480,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:65 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "TIFF_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -2579,6 +2498,8 @@ events:
       - "tiff3"
       - "libtiff3"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2591,31 +2512,19 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
     found: "/opt/homebrew/lib/libtiff.dylib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -2664,7 +2573,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:65 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "TIFF_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -2682,6 +2591,8 @@ events:
       - "tiff3d"
       - "libtiff3d"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2694,17 +2605,18 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2717,16 +2629,17 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2739,16 +2652,17 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2761,16 +2675,17 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2783,18 +2698,19 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -2843,7 +2759,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:69 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "JPEG_INCLUDE_DIR"
     description: "Path to a file."
@@ -2858,6 +2774,8 @@ events:
     names:
       - "jpeglib.h"
     candidate_directories:
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2874,8 +2792,6 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -2900,25 +2816,10 @@ events:
       - "/Library/Frameworks/"
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/jpeglib.h"
-      - "/Users/jobkebede/.local/bin/jpeglib.h"
-      - "/opt/homebrew/bin/jpeglib.h"
-      - "/opt/homebrew/sbin/jpeglib.h"
-      - "/usr/local/bin/jpeglib.h"
-      - "/System/Cryptexes/App/usr/bin/jpeglib.h"
-      - "/usr/bin/jpeglib.h"
-      - "/bin/jpeglib.h"
-      - "/usr/sbin/jpeglib.h"
-      - "/sbin/jpeglib.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/jpeglib.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/jpeglib.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/jpeglib.h"
-      - "/opt/pmk/env/global/bin/jpeglib.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/jpeglib.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/jpeglib.h"
     found: "/opt/homebrew/include/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -2967,7 +2868,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:69 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "JPEG_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -2985,6 +2886,8 @@ events:
       - "libjpeg"
       - "libjpeg-static"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -2997,67 +2900,19 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
     found: "/opt/homebrew/lib/libjpeg.dylib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -3106,7 +2961,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:69 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "JPEG_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -3124,6 +2979,8 @@ events:
       - "libjpegd"
       - "libjpeg-staticd"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -3136,17 +2993,24 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
@@ -3195,14 +3059,6 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/local/"
       - "/usr/local/"
@@ -3219,6 +3075,10 @@ events:
       - "/opt/"
       - "/opt/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
@@ -3237,6 +3097,8 @@ events:
       - "/System/Library/Frameworks/"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -3285,7 +3147,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:73 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "libjxl_LIBRARY"
     description: "Path to a library."
@@ -3300,6 +3162,8 @@ events:
     names:
       - "jxl"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -3312,31 +3176,19 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
     found: "/opt/homebrew/lib/libjxl.dylib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -3385,7 +3237,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:73 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "libjxl_INCLUDE_PATH"
     description: "Path to a file."
@@ -3400,6 +3252,8 @@ events:
     names:
       - "jxl/decode.h"
     candidate_directories:
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -3416,8 +3270,6 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -3443,6 +3295,8 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/include/jxl.framework/Headers/decode.h"
+      - "/opt/homebrew/jxl.framework/Headers/decode.h"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/jxl.framework/Headers/decode.h"
       - "/Users/jobkebede/.local/bin/jxl.framework/Headers/decode.h"
       - "/opt/homebrew/bin/jxl.framework/Headers/decode.h"
@@ -3459,8 +3313,6 @@ events:
       - "/opt/pmk/env/global/bin/jxl.framework/Headers/decode.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/jxl.framework/Headers/decode.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/jxl.framework/Headers/decode.h"
-      - "/opt/homebrew/include/jxl.framework/Headers/decode.h"
-      - "/opt/homebrew/jxl.framework/Headers/decode.h"
       - "/usr/local/include/jxl.framework/Headers/decode.h"
       - "/usr/local/jxl.framework/Headers/decode.h"
       - "/usr/include/jxl.framework/Headers/decode.h"
@@ -3485,24 +3337,10 @@ events:
       - "/Library/Frameworks/jxl.framework/Headers/decode.h"
       - "/Network/Library/Frameworks/jxl.framework/Headers/decode.h"
       - "/System/Library/Frameworks/jxl.framework/Headers/decode.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/jxl/decode.h"
-      - "/Users/jobkebede/.local/bin/jxl/decode.h"
-      - "/opt/homebrew/bin/jxl/decode.h"
-      - "/opt/homebrew/sbin/jxl/decode.h"
-      - "/usr/local/bin/jxl/decode.h"
-      - "/System/Cryptexes/App/usr/bin/jxl/decode.h"
-      - "/usr/bin/jxl/decode.h"
-      - "/bin/jxl/decode.h"
-      - "/usr/sbin/jxl/decode.h"
-      - "/sbin/jxl/decode.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/jxl/decode.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/jxl/decode.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/jxl/decode.h"
-      - "/opt/pmk/env/global/bin/jxl/decode.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/jxl/decode.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/jxl/decode.h"
     found: "/opt/homebrew/include/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -3552,7 +3390,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:77 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "ZLIB_INCLUDE_DIR"
     description: "Path to a file."
@@ -3567,6 +3405,10 @@ events:
     names:
       - "zlib.h"
     candidate_directories:
+      - "/opt/homebrew/include/include/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/include/"
@@ -3599,10 +3441,6 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/include/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
       - "/usr/local/include/include/"
       - "/usr/local/include/"
       - "/usr/local/include/"
@@ -3654,6 +3492,10 @@ events:
       - "/zlib/include/"
       - "/zlib/"
     searched_directories:
+      - "/opt/homebrew/include/include/zlib.h"
+      - "/opt/homebrew/include/zlib.h"
+      - "/opt/homebrew/include/zlib.h"
+      - "/opt/homebrew/zlib.h"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/zlib.h"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/zlib.h"
       - "/Users/jobkebede/.local/bin/include/zlib.h"
@@ -3685,6 +3527,8 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/zlib.h"
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -3734,7 +3578,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:77 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "ZLIB_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -3756,6 +3600,9 @@ events:
       - "zlibvc"
       - "zlibstat"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -3769,19 +3616,41 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
@@ -3864,6 +3733,8 @@ events:
       - "/sbin/"
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -3913,7 +3784,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:77 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "ZLIB_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -3936,6 +3807,9 @@ events:
       - "zlibvcd"
       - "zlibstatd"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -3949,19 +3823,44 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
@@ -4079,33 +3978,6 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/local/"
       - "/usr/local/"
@@ -4151,6 +4023,15 @@ events:
       - "/opt/"
       - "/opt/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
@@ -4189,6 +4070,8 @@ events:
       - "/System/Library/Frameworks/"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -4237,7 +4120,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:77 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "PNG_PNG_INCLUDE_DIR"
     description: "Path to a file."
@@ -4252,6 +4135,20 @@ events:
     names:
       - "png.h"
     candidate_directories:
+      - "/opt/homebrew/include/include/libpng/"
+      - "/opt/homebrew/include/include/libpng17/"
+      - "/opt/homebrew/include/include/libpng16/"
+      - "/opt/homebrew/include/include/libpng15/"
+      - "/opt/homebrew/include/include/libpng14/"
+      - "/opt/homebrew/include/include/libpng12/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/include/libpng/"
+      - "/opt/homebrew/include/libpng17/"
+      - "/opt/homebrew/include/libpng16/"
+      - "/opt/homebrew/include/libpng15/"
+      - "/opt/homebrew/include/libpng14/"
+      - "/opt/homebrew/include/libpng12/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng17/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng16/"
@@ -4364,20 +4261,6 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng14/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng12/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/include/libpng/"
-      - "/opt/homebrew/include/include/libpng17/"
-      - "/opt/homebrew/include/include/libpng16/"
-      - "/opt/homebrew/include/include/libpng15/"
-      - "/opt/homebrew/include/include/libpng14/"
-      - "/opt/homebrew/include/include/libpng12/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/include/libpng/"
-      - "/opt/homebrew/include/libpng17/"
-      - "/opt/homebrew/include/libpng16/"
-      - "/opt/homebrew/include/libpng15/"
-      - "/opt/homebrew/include/libpng14/"
-      - "/opt/homebrew/include/libpng12/"
-      - "/opt/homebrew/"
       - "/usr/local/include/include/libpng/"
       - "/usr/local/include/include/libpng17/"
       - "/usr/local/include/include/libpng16/"
@@ -4554,118 +4437,6 @@ events:
       - "/libpng/include/libpng12/"
       - "/libpng/"
     searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng/png.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng17/png.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng16/png.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng15/png.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng14/png.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/include/libpng12/png.h"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/png.h"
-      - "/Users/jobkebede/.local/bin/include/libpng/png.h"
-      - "/Users/jobkebede/.local/bin/include/libpng17/png.h"
-      - "/Users/jobkebede/.local/bin/include/libpng16/png.h"
-      - "/Users/jobkebede/.local/bin/include/libpng15/png.h"
-      - "/Users/jobkebede/.local/bin/include/libpng14/png.h"
-      - "/Users/jobkebede/.local/bin/include/libpng12/png.h"
-      - "/Users/jobkebede/.local/bin/png.h"
-      - "/opt/homebrew/bin/include/libpng/png.h"
-      - "/opt/homebrew/bin/include/libpng17/png.h"
-      - "/opt/homebrew/bin/include/libpng16/png.h"
-      - "/opt/homebrew/bin/include/libpng15/png.h"
-      - "/opt/homebrew/bin/include/libpng14/png.h"
-      - "/opt/homebrew/bin/include/libpng12/png.h"
-      - "/opt/homebrew/bin/png.h"
-      - "/opt/homebrew/sbin/include/libpng/png.h"
-      - "/opt/homebrew/sbin/include/libpng17/png.h"
-      - "/opt/homebrew/sbin/include/libpng16/png.h"
-      - "/opt/homebrew/sbin/include/libpng15/png.h"
-      - "/opt/homebrew/sbin/include/libpng14/png.h"
-      - "/opt/homebrew/sbin/include/libpng12/png.h"
-      - "/opt/homebrew/sbin/png.h"
-      - "/usr/local/bin/include/libpng/png.h"
-      - "/usr/local/bin/include/libpng17/png.h"
-      - "/usr/local/bin/include/libpng16/png.h"
-      - "/usr/local/bin/include/libpng15/png.h"
-      - "/usr/local/bin/include/libpng14/png.h"
-      - "/usr/local/bin/include/libpng12/png.h"
-      - "/usr/local/bin/png.h"
-      - "/System/Cryptexes/App/usr/bin/include/libpng/png.h"
-      - "/System/Cryptexes/App/usr/bin/include/libpng17/png.h"
-      - "/System/Cryptexes/App/usr/bin/include/libpng16/png.h"
-      - "/System/Cryptexes/App/usr/bin/include/libpng15/png.h"
-      - "/System/Cryptexes/App/usr/bin/include/libpng14/png.h"
-      - "/System/Cryptexes/App/usr/bin/include/libpng12/png.h"
-      - "/System/Cryptexes/App/usr/bin/png.h"
-      - "/usr/bin/include/libpng/png.h"
-      - "/usr/bin/include/libpng17/png.h"
-      - "/usr/bin/include/libpng16/png.h"
-      - "/usr/bin/include/libpng15/png.h"
-      - "/usr/bin/include/libpng14/png.h"
-      - "/usr/bin/include/libpng12/png.h"
-      - "/usr/bin/png.h"
-      - "/bin/include/libpng/png.h"
-      - "/bin/include/libpng17/png.h"
-      - "/bin/include/libpng16/png.h"
-      - "/bin/include/libpng15/png.h"
-      - "/bin/include/libpng14/png.h"
-      - "/bin/include/libpng12/png.h"
-      - "/bin/png.h"
-      - "/usr/sbin/include/libpng/png.h"
-      - "/usr/sbin/include/libpng17/png.h"
-      - "/usr/sbin/include/libpng16/png.h"
-      - "/usr/sbin/include/libpng15/png.h"
-      - "/usr/sbin/include/libpng14/png.h"
-      - "/usr/sbin/include/libpng12/png.h"
-      - "/usr/sbin/png.h"
-      - "/sbin/include/libpng/png.h"
-      - "/sbin/include/libpng17/png.h"
-      - "/sbin/include/libpng16/png.h"
-      - "/sbin/include/libpng15/png.h"
-      - "/sbin/include/libpng14/png.h"
-      - "/sbin/include/libpng12/png.h"
-      - "/sbin/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/libpng/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/libpng17/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/libpng16/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/libpng15/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/libpng14/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/libpng12/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/libpng/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/libpng17/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/libpng16/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/libpng15/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/libpng14/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/libpng12/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/libpng/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/libpng17/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/libpng16/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/libpng15/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/libpng14/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/libpng12/png.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/png.h"
-      - "/opt/pmk/env/global/bin/include/libpng/png.h"
-      - "/opt/pmk/env/global/bin/include/libpng17/png.h"
-      - "/opt/pmk/env/global/bin/include/libpng16/png.h"
-      - "/opt/pmk/env/global/bin/include/libpng15/png.h"
-      - "/opt/pmk/env/global/bin/include/libpng14/png.h"
-      - "/opt/pmk/env/global/bin/include/libpng12/png.h"
-      - "/opt/pmk/env/global/bin/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/libpng/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/libpng17/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/libpng16/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/libpng15/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/libpng14/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/libpng12/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng17/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng16/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng15/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng14/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libpng12/png.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/png.h"
       - "/opt/homebrew/include/include/libpng/png.h"
       - "/opt/homebrew/include/include/libpng17/png.h"
       - "/opt/homebrew/include/include/libpng16/png.h"
@@ -4674,6 +4445,8 @@ events:
       - "/opt/homebrew/include/include/libpng12/png.h"
     found: "/opt/homebrew/include/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -4722,7 +4495,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:77 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "PNG_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -4753,6 +4526,8 @@ events:
       - "libpng12"
       - "libpng12_static"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -4765,223 +4540,19 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/Users/jobkebede/.local/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
     found: "/opt/homebrew/lib/libpng.dylib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -5030,7 +4601,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake:77 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "library"
     variable: "PNG_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -5059,6 +4630,8 @@ events:
       - "libpng12d"
       - "libpng12_staticd"
     candidate_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.local/bin/"
       - "/opt/homebrew/bin/"
@@ -5071,17 +4644,46 @@ events:
       - "/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
       - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin/"
@@ -5262,36 +4864,6 @@ events:
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
-      - "/opt/homebrew/"
       - "/usr/local/"
       - "/usr/local/"
       - "/usr/local/"
@@ -5352,6 +4924,21 @@ events:
       - "/opt/"
       - "/opt/"
       - "/opt/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
+      - "/Users/jobkebede/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
@@ -5414,6 +5001,8 @@ events:
       - "/System/Library/Frameworks/"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"
@@ -5458,7 +5047,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     name: "SDL2_image"
     configs:
       -
@@ -5499,22 +5088,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/jobkebede/.nvm/versions/node/v18.20.8/SDL2_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.nvm/versions/node/v18.20.8/sdl2_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.local/SDL2_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/jobkebede/.local/sdl2_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/opt/homebrew/SDL2_imageConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -5531,6 +5104,109 @@ events:
       mode: "config"
       version: "2.8.8"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
+      ENV{PATH}:
+        - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
+        - "/Users/jobkebede/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:18 (find_package)"
+    name: "SDL2_ttf"
+    configs:
+      -
+        filename: "SDL2_ttfConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl2_ttf-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL2_ttf"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/pkgRedirects/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/pkgRedirects/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/sdl2_ttf-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/SDL2_ttf/SDL2_ttfConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/SDL2_ttf/sdl2_ttf-config.cmake"
+      mode: "config"
+      version: "2.24.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/opt/homebrew"
       ENV{PATH}:
         - "/Users/jobkebede/.nvm/versions/node/v18.20.8/bin"
         - "/Users/jobkebede/.local/bin"

@@ -285,6 +285,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/build
 .PHONY : 15_rotation_and_flipping/fast
 
+#=============================================================================
+# Target rules for targets named 16_true_type_fonts
+
+# Build rule for target.
+16_true_type_fonts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 16_true_type_fonts
+.PHONY : 16_true_type_fonts
+
+# fast build rule for target.
+16_true_type_fonts/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/build
+.PHONY : 16_true_type_fonts/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -597,6 +610,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.s
 .PHONY : 15_rotation_and_flipping.cpp.s
 
+16_true_type_fonts.o: 16_true_type_fonts.cpp.o
+.PHONY : 16_true_type_fonts.o
+
+# target to build an object file
+16_true_type_fonts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o
+.PHONY : 16_true_type_fonts.cpp.o
+
+16_true_type_fonts.i: 16_true_type_fonts.cpp.i
+.PHONY : 16_true_type_fonts.i
+
+# target to preprocess a source file
+16_true_type_fonts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.i
+.PHONY : 16_true_type_fonts.cpp.i
+
+16_true_type_fonts.s: 16_true_type_fonts.cpp.s
+.PHONY : 16_true_type_fonts.s
+
+# target to generate assembly for a file
+16_true_type_fonts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.s
+.PHONY : 16_true_type_fonts.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -618,6 +655,7 @@ help:
 	@echo "... 13_alpha_bending"
 	@echo "... 14_animated_sprites_and_vsync"
 	@echo "... 15_rotation_and_flipping"
+	@echo "... 16_true_type_fonts"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -657,6 +695,9 @@ help:
 	@echo "... 15_rotation_and_flipping.o"
 	@echo "... 15_rotation_and_flipping.i"
 	@echo "... 15_rotation_and_flipping.s"
+	@echo "... 16_true_type_fonts.o"
+	@echo "... 16_true_type_fonts.i"
+	@echo "... 16_true_type_fonts.s"
 .PHONY : help
 
 

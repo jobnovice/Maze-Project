@@ -97,6 +97,7 @@ CMakeFiles/11_clip_rendering.dir/11_clip_rendering.cpp.s: cmake_force
 /Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering: CMakeFiles/11_clip_rendering.dir/build.make
 /Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering: /opt/homebrew/Cellar/sdl2/2.32.10/lib/libSDL2.dylib
 /Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering: /opt/homebrew/Cellar/sdl2_image/2.8.8/lib/libSDL2_image.dylib
+/Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering: /opt/homebrew/Cellar/sdl2_ttf/2.24.0/lib/libSDL2_ttf.dylib
 /Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering: CMakeFiles/11_clip_rendering.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/jobkebede/Documents/Maze-Project/output/11_clip_rendering"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/11_clip_rendering.dir/link.txt --verbose=$(VERBOSE)

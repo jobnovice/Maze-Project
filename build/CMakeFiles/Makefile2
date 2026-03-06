@@ -76,6 +76,7 @@ all: CMakeFiles/12_color_modulation.dir/all
 all: CMakeFiles/13_alpha_bending.dir/all
 all: CMakeFiles/14_animated_sprites_and_vsync.dir/all
 all: CMakeFiles/15_rotation_and_flipping.dir/all
+all: CMakeFiles/16_true_type_fonts.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -92,6 +93,7 @@ codegen: CMakeFiles/12_color_modulation.dir/codegen
 codegen: CMakeFiles/13_alpha_bending.dir/codegen
 codegen: CMakeFiles/14_animated_sprites_and_vsync.dir/codegen
 codegen: CMakeFiles/15_rotation_and_flipping.dir/codegen
+codegen: CMakeFiles/16_true_type_fonts.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -112,6 +114,7 @@ clean: CMakeFiles/12_color_modulation.dir/clean
 clean: CMakeFiles/13_alpha_bending.dir/clean
 clean: CMakeFiles/14_animated_sprites_and_vsync.dir/clean
 clean: CMakeFiles/15_rotation_and_flipping.dir/clean
+clean: CMakeFiles/16_true_type_fonts.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -529,6 +532,38 @@ CMakeFiles/15_rotation_and_flipping.dir/codegen:
 CMakeFiles/15_rotation_and_flipping.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/clean
 .PHONY : CMakeFiles/15_rotation_and_flipping.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/16_true_type_fonts.dir
+
+# All Build rule for target.
+CMakeFiles/16_true_type_fonts.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=27,28 "Built target 16_true_type_fonts"
+.PHONY : CMakeFiles/16_true_type_fonts.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/16_true_type_fonts.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/16_true_type_fonts.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 0
+.PHONY : CMakeFiles/16_true_type_fonts.dir/rule
+
+# Convenience name for target.
+16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/rule
+.PHONY : 16_true_type_fonts
+
+# codegen rule for target.
+CMakeFiles/16_true_type_fonts.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=27,28 "Finished codegen for target 16_true_type_fonts"
+.PHONY : CMakeFiles/16_true_type_fonts.dir/codegen
+
+# clean rule for target.
+CMakeFiles/16_true_type_fonts.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/clean
+.PHONY : CMakeFiles/16_true_type_fonts.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
