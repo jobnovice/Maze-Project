@@ -1,0 +1,447 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FLAC::FLAC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FLAC__FLAC-Debug-69fe09055e0693401902.json",
+					"name" : "FLAC::FLAC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FluidSynth::libfluidsynth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FluidSynth__libfluidsynth-Debug-6a1e36a1523d30b5586b.json",
+					"name" : "FluidSynth::libfluidsynth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "JPEG::JPEG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-JPEG__JPEG-Debug-50268aa4c134734beacf.json",
+					"name" : "JPEG::JPEG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MPG123::libmpg123::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MPG123__libmpg123-Debug-8842b24018435b639aa2.json",
+					"name" : "MPG123::libmpg123",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpusFile::opusfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpusFile__opusfile-Debug-f28ceeafa8b739b604de.json",
+					"name" : "OpusFile::opusfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PNG::PNG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PNG__PNG-Debug-21855dda36d56cfaf2d9.json",
+					"name" : "PNG::PNG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-Debug-7eadc95bfb8ad0663952.json",
+					"name" : "SDL2::SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-static-Debug-4883e3fbbc3b5f0e5e3a.json",
+					"name" : "SDL2::SDL2-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2main-Debug-8d07b2b333522a8275e6.json",
+					"name" : "SDL2::SDL2main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2test-Debug-97f250ce3be21bb041ca.json",
+					"name" : "SDL2::SDL2test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_image::SDL2_image::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_image__SDL2_image-Debug-48ba07ec415116d5a53b.json",
+					"name" : "SDL2_image::SDL2_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_image::SDL2_image-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_image__SDL2_image-static-Debug-f609b9c11b4f3bbffb50.json",
+					"name" : "SDL2_image::SDL2_image-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_mixer::SDL2_mixer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_mixer__SDL2_mixer-Debug-c5bcc8d92bbb1893c933.json",
+					"name" : "SDL2_mixer::SDL2_mixer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_mixer::SDL2_mixer-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_mixer__SDL2_mixer-static-Debug-37294458392dd1f920df.json",
+					"name" : "SDL2_mixer::SDL2_mixer-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_ttf::SDL2_ttf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_ttf__SDL2_ttf-Debug-0006e5e7600e44e4fe17.json",
+					"name" : "SDL2_ttf::SDL2_ttf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_ttf::SDL2_ttf-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_ttf__SDL2_ttf-static-Debug-1113ef1897c026acb958.json",
+					"name" : "SDL2_ttf::SDL2_ttf-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TIFF::CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIFF__CXX-Debug-30c2a7bf95a1aefe900a.json",
+					"name" : "TIFF::CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TIFF::TIFF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIFF__TIFF-Debug-670257ee074b93733fc9.json",
+					"name" : "TIFF::TIFF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vorbis::vorbisfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vorbis__vorbisfile-Debug-dbd6a7ac51a6581a2fee.json",
+					"name" : "Vorbis::vorbisfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WavPack::WavPack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WavPack__WavPack-Debug-8aa3aabd21417c6a3bcc.json",
+					"name" : "WavPack::WavPack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WebP::webp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WebP__webp-Debug-21b76b01ef88489e2735.json",
+					"name" : "WebP::webp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WebP::webpdemux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WebP__webpdemux-Debug-2d394ec85eaf61a917aa.json",
+					"name" : "WebP::webpdemux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZLIB::ZLIB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZLIB__ZLIB-Debug-a3f0ede1bd76282f02fc.json",
+					"name" : "ZLIB::ZLIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "avif::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-avif-Debug-e4fe1a19fa3fa2c077df.json",
+					"name" : "avif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libjxl::libjxl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libjxl__libjxl-Debug-08bf7d52122719487874.json",
+					"name" : "libjxl::libjxl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libxmp::libxmp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libxmp__libxmp-Debug-f2f01b2b51cb7ecb3311.json",
+					"name" : "libxmp::libxmp",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SDLTutorials",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "03_event_driven_programming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_event_driven_programming-Debug-75679028f59942c7dc14.json",
+					"name" : "03_event_driven_programming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_key_press::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_key_press-Debug-f2152582f4f5a6badc86.json",
+					"name" : "04_key_press",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_optimized_surface_load::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_optimized_surface_load-Debug-8926b0da1081b5f8cef2.json",
+					"name" : "05_optimized_surface_load",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_extension_libraries_and_loading_other_image_formats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_extension_libraries_and_loading_other_image_formats-Debug-b2347557989bc6c57c02.json",
+					"name" : "06_extension_libraries_and_loading_other_image_formats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_texture_loading_and_rendering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_texture_loading_and_rendering-Debug-a9fe6f495299c64fcb44.json",
+					"name" : "07_texture_loading_and_rendering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_geometry_rendering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_geometry_rendering-Debug-8a421cd81d7e2ab32954.json",
+					"name" : "08_geometry_rendering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_the_viewport::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_the_viewport-Debug-9bae83fd3d3839db6a92.json",
+					"name" : "09_the_viewport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10_color_keying::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_color_keying-Debug-983d0d40266b4b40500b.json",
+					"name" : "10_color_keying",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11_clip_rendering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11_clip_rendering-Debug-50c7afd5e69c6d4eddd8.json",
+					"name" : "11_clip_rendering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12_color_modulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_color_modulation-Debug-35be64f054a76e06dbb1.json",
+					"name" : "12_color_modulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_alpha_bending::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_alpha_bending-Debug-53b13484b592bd24b83d.json",
+					"name" : "13_alpha_bending",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_animated_sprites_and_vsync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_animated_sprites_and_vsync-Debug-1ebde19c086db79b3998.json",
+					"name" : "14_animated_sprites_and_vsync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "15_rotation_and_flipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-15_rotation_and_flipping-Debug-8d6574bdaf0eea47d765.json",
+					"name" : "15_rotation_and_flipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_true_type_fonts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_true_type_fonts-Debug-7d2cc8fef711d6d79f54.json",
+					"name" : "16_true_type_fonts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "17_mouse_events::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-17_mouse_events-Debug-ade59943c676db682657.json",
+					"name" : "17_mouse_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "18_key_states::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18_key_states-Debug-1f85c21867da97f56144.json",
+					"name" : "18_key_states",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "21_sound_effects_and_music::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-21_sound_effects_and_music-Debug-1c42e5feb2b477093502.json",
+					"name" : "21_sound_effects_and_music",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jobkebede/Documents/Maze-Project/build",
+		"source" : "/Users/jobkebede/Documents/Maze-Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

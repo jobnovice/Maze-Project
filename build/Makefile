@@ -298,6 +298,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/build
 .PHONY : 16_true_type_fonts/fast
 
+#=============================================================================
+# Target rules for targets named 17_mouse_events
+
+# Build rule for target.
+17_mouse_events: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 17_mouse_events
+.PHONY : 17_mouse_events
+
+# fast build rule for target.
+17_mouse_events/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/build
+.PHONY : 17_mouse_events/fast
+
+#=============================================================================
+# Target rules for targets named 18_key_states
+
+# Build rule for target.
+18_key_states: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 18_key_states
+.PHONY : 18_key_states
+
+# fast build rule for target.
+18_key_states/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/build
+.PHONY : 18_key_states/fast
+
+#=============================================================================
+# Target rules for targets named 21_sound_effects_and_music
+
+# Build rule for target.
+21_sound_effects_and_music: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21_sound_effects_and_music
+.PHONY : 21_sound_effects_and_music
+
+# fast build rule for target.
+21_sound_effects_and_music/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/build
+.PHONY : 21_sound_effects_and_music/fast
+
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -634,6 +673,78 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.s
 .PHONY : 16_true_type_fonts.cpp.s
 
+17_mouse_events.o: 17_mouse_events.cpp.o
+.PHONY : 17_mouse_events.o
+
+# target to build an object file
+17_mouse_events.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/17_mouse_events.cpp.o
+.PHONY : 17_mouse_events.cpp.o
+
+17_mouse_events.i: 17_mouse_events.cpp.i
+.PHONY : 17_mouse_events.i
+
+# target to preprocess a source file
+17_mouse_events.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/17_mouse_events.cpp.i
+.PHONY : 17_mouse_events.cpp.i
+
+17_mouse_events.s: 17_mouse_events.cpp.s
+.PHONY : 17_mouse_events.s
+
+# target to generate assembly for a file
+17_mouse_events.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/17_mouse_events.cpp.s
+.PHONY : 17_mouse_events.cpp.s
+
+18_key_states.o: 18_key_states.cpp.o
+.PHONY : 18_key_states.o
+
+# target to build an object file
+18_key_states.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/18_key_states.cpp.o
+.PHONY : 18_key_states.cpp.o
+
+18_key_states.i: 18_key_states.cpp.i
+.PHONY : 18_key_states.i
+
+# target to preprocess a source file
+18_key_states.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/18_key_states.cpp.i
+.PHONY : 18_key_states.cpp.i
+
+18_key_states.s: 18_key_states.cpp.s
+.PHONY : 18_key_states.s
+
+# target to generate assembly for a file
+18_key_states.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/18_key_states.cpp.s
+.PHONY : 18_key_states.cpp.s
+
+21_sound_effects_and_music.o: 21_sound_effects_and_music.cpp.o
+.PHONY : 21_sound_effects_and_music.o
+
+# target to build an object file
+21_sound_effects_and_music.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o
+.PHONY : 21_sound_effects_and_music.cpp.o
+
+21_sound_effects_and_music.i: 21_sound_effects_and_music.cpp.i
+.PHONY : 21_sound_effects_and_music.i
+
+# target to preprocess a source file
+21_sound_effects_and_music.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.i
+.PHONY : 21_sound_effects_and_music.cpp.i
+
+21_sound_effects_and_music.s: 21_sound_effects_and_music.cpp.s
+.PHONY : 21_sound_effects_and_music.s
+
+# target to generate assembly for a file
+21_sound_effects_and_music.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.s
+.PHONY : 21_sound_effects_and_music.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -656,6 +767,9 @@ help:
 	@echo "... 14_animated_sprites_and_vsync"
 	@echo "... 15_rotation_and_flipping"
 	@echo "... 16_true_type_fonts"
+	@echo "... 17_mouse_events"
+	@echo "... 18_key_states"
+	@echo "... 21_sound_effects_and_music"
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -698,6 +812,15 @@ help:
 	@echo "... 16_true_type_fonts.o"
 	@echo "... 16_true_type_fonts.i"
 	@echo "... 16_true_type_fonts.s"
+	@echo "... 17_mouse_events.o"
+	@echo "... 17_mouse_events.i"
+	@echo "... 17_mouse_events.s"
+	@echo "... 18_key_states.o"
+	@echo "... 18_key_states.i"
+	@echo "... 18_key_states.s"
+	@echo "... 21_sound_effects_and_music.o"
+	@echo "... 21_sound_effects_and_music.i"
+	@echo "... 21_sound_effects_and_music.s"
 .PHONY : help
 
 

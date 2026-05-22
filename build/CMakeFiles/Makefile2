@@ -77,6 +77,9 @@ all: CMakeFiles/13_alpha_bending.dir/all
 all: CMakeFiles/14_animated_sprites_and_vsync.dir/all
 all: CMakeFiles/15_rotation_and_flipping.dir/all
 all: CMakeFiles/16_true_type_fonts.dir/all
+all: CMakeFiles/17_mouse_events.dir/all
+all: CMakeFiles/18_key_states.dir/all
+all: CMakeFiles/21_sound_effects_and_music.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -94,6 +97,9 @@ codegen: CMakeFiles/13_alpha_bending.dir/codegen
 codegen: CMakeFiles/14_animated_sprites_and_vsync.dir/codegen
 codegen: CMakeFiles/15_rotation_and_flipping.dir/codegen
 codegen: CMakeFiles/16_true_type_fonts.dir/codegen
+codegen: CMakeFiles/17_mouse_events.dir/codegen
+codegen: CMakeFiles/18_key_states.dir/codegen
+codegen: CMakeFiles/21_sound_effects_and_music.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -115,6 +121,9 @@ clean: CMakeFiles/13_alpha_bending.dir/clean
 clean: CMakeFiles/14_animated_sprites_and_vsync.dir/clean
 clean: CMakeFiles/15_rotation_and_flipping.dir/clean
 clean: CMakeFiles/16_true_type_fonts.dir/clean
+clean: CMakeFiles/17_mouse_events.dir/clean
+clean: CMakeFiles/18_key_states.dir/clean
+clean: CMakeFiles/21_sound_effects_and_music.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -564,6 +573,102 @@ CMakeFiles/16_true_type_fonts.dir/codegen:
 CMakeFiles/16_true_type_fonts.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_true_type_fonts.dir/build.make CMakeFiles/16_true_type_fonts.dir/clean
 .PHONY : CMakeFiles/16_true_type_fonts.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17_mouse_events.dir
+
+# All Build rule for target.
+CMakeFiles/17_mouse_events.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=29,30 "Built target 17_mouse_events"
+.PHONY : CMakeFiles/17_mouse_events.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17_mouse_events.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17_mouse_events.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 0
+.PHONY : CMakeFiles/17_mouse_events.dir/rule
+
+# Convenience name for target.
+17_mouse_events: CMakeFiles/17_mouse_events.dir/rule
+.PHONY : 17_mouse_events
+
+# codegen rule for target.
+CMakeFiles/17_mouse_events.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=29,30 "Finished codegen for target 17_mouse_events"
+.PHONY : CMakeFiles/17_mouse_events.dir/codegen
+
+# clean rule for target.
+CMakeFiles/17_mouse_events.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17_mouse_events.dir/build.make CMakeFiles/17_mouse_events.dir/clean
+.PHONY : CMakeFiles/17_mouse_events.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/18_key_states.dir
+
+# All Build rule for target.
+CMakeFiles/18_key_states.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=31,32 "Built target 18_key_states"
+.PHONY : CMakeFiles/18_key_states.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/18_key_states.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/18_key_states.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 0
+.PHONY : CMakeFiles/18_key_states.dir/rule
+
+# Convenience name for target.
+18_key_states: CMakeFiles/18_key_states.dir/rule
+.PHONY : 18_key_states
+
+# codegen rule for target.
+CMakeFiles/18_key_states.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=31,32 "Finished codegen for target 18_key_states"
+.PHONY : CMakeFiles/18_key_states.dir/codegen
+
+# clean rule for target.
+CMakeFiles/18_key_states.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_key_states.dir/build.make CMakeFiles/18_key_states.dir/clean
+.PHONY : CMakeFiles/18_key_states.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21_sound_effects_and_music.dir
+
+# All Build rule for target.
+CMakeFiles/21_sound_effects_and_music.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=33,34 "Built target 21_sound_effects_and_music"
+.PHONY : CMakeFiles/21_sound_effects_and_music.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21_sound_effects_and_music.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21_sound_effects_and_music.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 0
+.PHONY : CMakeFiles/21_sound_effects_and_music.dir/rule
+
+# Convenience name for target.
+21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/rule
+.PHONY : 21_sound_effects_and_music
+
+# codegen rule for target.
+CMakeFiles/21_sound_effects_and_music.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=33,34 "Finished codegen for target 21_sound_effects_and_music"
+.PHONY : CMakeFiles/21_sound_effects_and_music.dir/codegen
+
+# clean rule for target.
+CMakeFiles/21_sound_effects_and_music.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/clean
+.PHONY : CMakeFiles/21_sound_effects_and_music.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
