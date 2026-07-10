@@ -70,5 +70,11 @@
   "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o -c /home/job/Maze-Project/14_animated_sprites_and_vsync.cpp",
   "file": "/home/job/Maze-Project/14_animated_sprites_and_vsync.cpp",
   "output": "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o"
+},
+{
+  "directory": "/home/job/Maze-Project/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/SDL2 -g -std=gnu++11 -o CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o -c /home/job/Maze-Project/15_rotation_and_flipping.cpp",
+  "file": "/home/job/Maze-Project/15_rotation_and_flipping.cpp",
+  "output": "CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o"
 }
 ]

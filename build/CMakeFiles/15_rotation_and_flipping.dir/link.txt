@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/15_rotation_and_flipping.dir/link.d CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o -o /home/job/Maze-Project/output/15_rotation_and_flipping  /usr/lib/x86_64-linux-gnu/libSDL2.so /usr/lib/x86_64-linux-gnu/libSDL2_image.so

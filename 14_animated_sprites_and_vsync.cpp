@@ -183,7 +183,7 @@ bool init()
 			success = false;
 		}
 
-		gRenderer = SDL_CreateRenderer(gWindow, -1, SDL_RENDERER_ACCELERATED);
+		gRenderer = SDL_CreateRenderer(gWindow, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 		if (!gRenderer)
 		{
 			printf("Renderer could not be created as wanted, SDL_Error:%s\n", SDL_GetError());
@@ -251,7 +251,7 @@ int main(int argc, char *args[])
 				SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
 				SDL_RenderClear(gRenderer);
 
-				SDL_Rect* currentclip = &gSpriteClips[frame / 4 ];
+				SDL_Rect* currentclip = &gSpriteClips[frame / 8 ];
 				gAnimated.render((SCREEN_WIDTH - currentclip->w)/2, (SCREEN_HEIGHT - currentclip->h)/2, currentclip);
 
 				//update screen
@@ -260,7 +260,7 @@ int main(int argc, char *args[])
 				//increment the frame
 				++frame;
 
-				if(frame / 4 >= WALKING_ANIMATION_FRAMES)
+				if(frame / 8 >= WALKING_ANIMATION_FRAMES)
 				{
 					frame = 0;
 				}

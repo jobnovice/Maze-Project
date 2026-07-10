@@ -97,7 +97,7 @@ bool loadMedia()
 	bool success = true;
 	if (!gModulatedTexture.loadFromSource("Pics/fadeout.png"))
 	{
-		printf("Couldn't load the ");
+		printf("Couldn't load the image");
 		success = false;
 	}
 	else
