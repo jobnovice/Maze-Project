@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/09_the_viewport.dir/link.d"
-  "/home/job/Maze-Project/output/09_the_viewport"
-  "/home/job/Maze-Project/output/09_the_viewport.pdb"
+  "/Users/jobkebede/Documents/Maze-Project/output/09_the_viewport"
+  "/Users/jobkebede/Documents/Maze-Project/output/09_the_viewport.pdb"
   "CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o"
   "CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o.d"
 )

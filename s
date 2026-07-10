@@ -7,4 +7,4 @@ again key excerpts from today's daily exposure was to do first then feel not the
 your exemption from your past is long over due , but your still hanging around dwelling on it , what  exactly is the real issue here, maybe your still not convinced on the dirity of the situation here
 
 
-no real spirit was seen in you yet again , but let's not dwell too much on it, los gehts wir haben Die Ramunot fuer ander dinge oder Gefuehle
+no real spirit was seen in you yet again , but let's not dwell too much on it, los gehts wir haben keine Die Raumnot fuer ander dinge oder Gefuehle

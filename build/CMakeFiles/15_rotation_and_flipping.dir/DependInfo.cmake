@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/job/Maze-Project/15_rotation_and_flipping.cpp" "CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o" "gcc" "CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o.d"
   "" "/home/job/Maze-Project/output/15_rotation_and_flipping" "gcc" "CMakeFiles/15_rotation_and_flipping.dir/link.d"
+=======
+  "/Users/jobkebede/Documents/Maze-Project/15_rotation_and_flipping.cpp" "CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o" "gcc" "CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.o.d"
+>>>>>>> d04e59431abae93b813d4618ffeb7cfe3affd7b1
   )
 
 # Targets to which this target links which contain Fortran sources.

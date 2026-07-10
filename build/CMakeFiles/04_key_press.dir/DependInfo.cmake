@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/job/Maze-Project/04_key_press.cpp" "CMakeFiles/04_key_press.dir/04_key_press.cpp.o" "gcc" "CMakeFiles/04_key_press.dir/04_key_press.cpp.o.d"
-  "" "/home/job/Maze-Project/output/04_key_press" "gcc" "CMakeFiles/04_key_press.dir/link.d"
+  "/Users/jobkebede/Documents/Maze-Project/04_key_press.cpp" "CMakeFiles/04_key_press.dir/04_key_press.cpp.o" "gcc" "CMakeFiles/04_key_press.dir/04_key_press.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

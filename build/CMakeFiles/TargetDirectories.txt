@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/job/Maze-Project/build/CMakeFiles/03_event_driven_programming.dir
 /home/job/Maze-Project/build/CMakeFiles/04_key_press.dir
 /home/job/Maze-Project/build/CMakeFiles/05_optimized_surface_load.dir
@@ -13,3 +14,24 @@
 /home/job/Maze-Project/build/CMakeFiles/15_rotation_and_flipping.dir
 /home/job/Maze-Project/build/CMakeFiles/edit_cache.dir
 /home/job/Maze-Project/build/CMakeFiles/rebuild_cache.dir
+=======
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/03_event_driven_programming.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/04_key_press.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/05_optimized_surface_load.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/06_extension_libraries_and_loading_other_image_formats.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/07_texture_loading_and_rendering.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/08_geometry_rendering.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/09_the_viewport.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/10_color_keying.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/11_clip_rendering.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/12_color_modulation.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/13_alpha_bending.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/14_animated_sprites_and_vsync.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/15_rotation_and_flipping.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/16_true_type_fonts.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/17_mouse_events.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/18_key_states.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/21_sound_effects_and_music.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/edit_cache.dir
+/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/rebuild_cache.dir
+>>>>>>> d04e59431abae93b813d4618ffeb7cfe3affd7b1

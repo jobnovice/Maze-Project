@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/job/Maze-Project/09_the_viewport.cpp" "CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o" "gcc" "CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o.d"
-  "" "/home/job/Maze-Project/output/09_the_viewport" "gcc" "CMakeFiles/09_the_viewport.dir/link.d"
+  "/Users/jobkebede/Documents/Maze-Project/09_the_viewport.cpp" "CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o" "gcc" "CMakeFiles/09_the_viewport.dir/09_the_viewport.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

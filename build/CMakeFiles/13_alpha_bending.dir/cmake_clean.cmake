@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/13_alpha_bending.dir/link.d"
-  "/home/job/Maze-Project/output/13_alpha_bending"
-  "/home/job/Maze-Project/output/13_alpha_bending.pdb"
+  "/Users/jobkebede/Documents/Maze-Project/output/13_alpha_bending"
+  "/Users/jobkebede/Documents/Maze-Project/output/13_alpha_bending.pdb"
   "CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o"
   "CMakeFiles/13_alpha_bending.dir/13_alpha_bending.cpp.o.d"
 )
