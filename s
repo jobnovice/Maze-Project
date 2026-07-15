@@ -8,3 +8,5 @@ your exemption from your past is long over due , but your still hanging around d
 
 
 no real spirit was seen in you yet again , but let's not dwell too much on it, los gehts wir haben keine Die Raumnot fuer ander dinge oder Gefuehle
+
+a lot has been seen over the past  couple of months and what not ,so wichtige ist that we get out of our comfort zone , and open the possibilty for our best version yet, well how do we open? by going out there , by there whereever our said boundaries lie , we've got to embrace it for what it could possibly mean , that is it we're doing to have a meangiful life , to what extent well to the extent where each of the breath we take dont leave without accompishing our destined , unique , fullfiling purpose , well that's it  WE WILL LITERALLY DIE DOING OR ATTEMPTING THAT!
