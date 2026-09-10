@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/jobkebede/Documents/Maze-Project/output/18_key_states"
-  "/Users/jobkebede/Documents/Maze-Project/output/18_key_states.pdb"
+  "CMakeFiles/18_key_states.dir/link.d"
+  "/home/job/Maze-Project/output/18_key_states"
+  "/home/job/Maze-Project/output/18_key_states.pdb"
   "CMakeFiles/18_key_states.dir/18_key_states.cpp.o"
   "CMakeFiles/18_key_states.dir/18_key_states.cpp.o.d"
 )

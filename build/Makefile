@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jobkebede/Documents/Maze-Project
+CMAKE_SOURCE_DIR = /home/job/Maze-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jobkebede/Documents/Maze-Project/build
+CMAKE_BINARY_DIR = /home/job/Maze-Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/opt/homebrew/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles /Users/jobkebede/Documents/Maze-Project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/job/Maze-Project/build/CMakeFiles /home/job/Maze-Project/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/job/Maze-Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,8 +285,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/build
 .PHONY : 15_rotation_and_flipping/fast
 
-<<<<<<< HEAD
-=======
 #=============================================================================
 # Target rules for targets named 16_true_type_fonts
 
@@ -339,7 +337,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/build
 .PHONY : 21_sound_effects_and_music/fast
 
->>>>>>> d04e59431abae93b813d4618ffeb7cfe3affd7b1
 03_event_driven_programming.o: 03_event_driven_programming.cpp.o
 .PHONY : 03_event_driven_programming.o
 
@@ -652,8 +649,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_rotation_and_flipping.dir/build.make CMakeFiles/15_rotation_and_flipping.dir/15_rotation_and_flipping.cpp.s
 .PHONY : 15_rotation_and_flipping.cpp.s
 
-<<<<<<< HEAD
-=======
 16_true_type_fonts.o: 16_true_type_fonts.cpp.o
 .PHONY : 16_true_type_fonts.o
 
@@ -750,7 +745,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21_sound_effects_and_music.dir/build.make CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.s
 .PHONY : 21_sound_effects_and_music.cpp.s
 
->>>>>>> d04e59431abae93b813d4618ffeb7cfe3affd7b1
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -772,13 +766,10 @@ help:
 	@echo "... 13_alpha_bending"
 	@echo "... 14_animated_sprites_and_vsync"
 	@echo "... 15_rotation_and_flipping"
-<<<<<<< HEAD
-=======
 	@echo "... 16_true_type_fonts"
 	@echo "... 17_mouse_events"
 	@echo "... 18_key_states"
 	@echo "... 21_sound_effects_and_music"
->>>>>>> d04e59431abae93b813d4618ffeb7cfe3affd7b1
 	@echo "... 03_event_driven_programming.o"
 	@echo "... 03_event_driven_programming.i"
 	@echo "... 03_event_driven_programming.s"
@@ -818,8 +809,6 @@ help:
 	@echo "... 15_rotation_and_flipping.o"
 	@echo "... 15_rotation_and_flipping.i"
 	@echo "... 15_rotation_and_flipping.s"
-<<<<<<< HEAD
-=======
 	@echo "... 16_true_type_fonts.o"
 	@echo "... 16_true_type_fonts.i"
 	@echo "... 16_true_type_fonts.s"
@@ -832,7 +821,6 @@ help:
 	@echo "... 21_sound_effects_and_music.o"
 	@echo "... 21_sound_effects_and_music.i"
 	@echo "... 21_sound_effects_and_music.s"
->>>>>>> d04e59431abae93b813d4618ffeb7cfe3affd7b1
 .PHONY : help
 
 

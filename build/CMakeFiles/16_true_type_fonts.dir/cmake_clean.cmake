@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts"
-  "/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts.pdb"
+  "CMakeFiles/16_true_type_fonts.dir/link.d"
+  "/home/job/Maze-Project/output/16_true_type_fonts"
+  "/home/job/Maze-Project/output/16_true_type_fonts.pdb"
   "CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o"
   "CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o.d"
 )

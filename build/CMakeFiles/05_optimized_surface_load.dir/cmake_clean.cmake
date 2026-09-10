@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/jobkebede/Documents/Maze-Project/output/05_optimized_surface_load"
-  "/Users/jobkebede/Documents/Maze-Project/output/05_optimized_surface_load.pdb"
+  "CMakeFiles/05_optimized_surface_load.dir/link.d"
+  "/home/job/Maze-Project/output/05_optimized_surface_load"
+  "/home/job/Maze-Project/output/05_optimized_surface_load.pdb"
   "CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o"
   "CMakeFiles/05_optimized_surface_load.dir/05_optimized_surface_load.cpp.o.d"
 )

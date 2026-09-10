@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/jobkebede/Documents/Maze-Project/build/cmake_install.cmake"
+		"/home/job/Maze-Project/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

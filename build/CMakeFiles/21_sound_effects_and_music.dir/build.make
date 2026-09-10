@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jobkebede/Documents/Maze-Project
+CMAKE_SOURCE_DIR = /home/job/Maze-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jobkebede/Documents/Maze-Project/build
+CMAKE_BINARY_DIR = /home/job/Maze-Project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/21_sound_effects_and_music.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/21_sound_effects_and_music.dir/codegen:
 .PHONY : CMakeFiles/21_sound_effects_and_music.dir/codegen
 
 CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o: CMakeFiles/21_sound_effects_and_music.dir/flags.make
-CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o: /Users/jobkebede/Documents/Maze-Project/21_sound_effects_and_music.cpp
+CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o: /home/job/Maze-Project/21_sound_effects_and_music.cpp
 CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o: CMakeFiles/21_sound_effects_and_music.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o -MF CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o.d -o CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o -c /Users/jobkebede/Documents/Maze-Project/21_sound_effects_and_music.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/job/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o -MF CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o.d -o CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o -c /home/job/Maze-Project/21_sound_effects_and_music.cpp
 
 CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/21_sound_effects_and_music.cpp > CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/job/Maze-Project/21_sound_effects_and_music.cpp > CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.i
 
 CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/21_sound_effects_and_music.cpp -o CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/job/Maze-Project/21_sound_effects_and_music.cpp -o CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.s
 
 # Object files for target 21_sound_effects_and_music
 21_sound_effects_and_music_OBJECTS = \
@@ -93,18 +93,19 @@ CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.s: cmak
 # External object files for target 21_sound_effects_and_music
 21_sound_effects_and_music_EXTERNAL_OBJECTS =
 
-/Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o
-/Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/build.make
-/Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music: /opt/homebrew/Cellar/sdl2/2.32.10/lib/libSDL2.dylib
-/Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music: /opt/homebrew/Cellar/sdl2_image/2.8.8/lib/libSDL2_image.dylib
-/Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music: /opt/homebrew/Cellar/sdl2_ttf/2.24.0/lib/libSDL2_ttf.dylib
-/Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music: /opt/homebrew/Cellar/sdl2_mixer/2.8.2/lib/libSDL2_mixer.dylib
-/Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music"
+/home/job/Maze-Project/output/21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o
+/home/job/Maze-Project/output/21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/build.make
+/home/job/Maze-Project/output/21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/compiler_depend.ts
+/home/job/Maze-Project/output/21_sound_effects_and_music: /usr/lib/x86_64-linux-gnu/libSDL2.so
+/home/job/Maze-Project/output/21_sound_effects_and_music: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
+/home/job/Maze-Project/output/21_sound_effects_and_music: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
+/home/job/Maze-Project/output/21_sound_effects_and_music: /usr/lib/x86_64-linux-gnu/libSDL2_mixer.so
+/home/job/Maze-Project/output/21_sound_effects_and_music: CMakeFiles/21_sound_effects_and_music.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/job/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/job/Maze-Project/output/21_sound_effects_and_music"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/21_sound_effects_and_music.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/21_sound_effects_and_music.dir/build: /Users/jobkebede/Documents/Maze-Project/output/21_sound_effects_and_music
+CMakeFiles/21_sound_effects_and_music.dir/build: /home/job/Maze-Project/output/21_sound_effects_and_music
 .PHONY : CMakeFiles/21_sound_effects_and_music.dir/build
 
 CMakeFiles/21_sound_effects_and_music.dir/clean:
@@ -112,6 +113,6 @@ CMakeFiles/21_sound_effects_and_music.dir/clean:
 .PHONY : CMakeFiles/21_sound_effects_and_music.dir/clean
 
 CMakeFiles/21_sound_effects_and_music.dir/depend:
-	cd /Users/jobkebede/Documents/Maze-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jobkebede/Documents/Maze-Project /Users/jobkebede/Documents/Maze-Project /Users/jobkebede/Documents/Maze-Project/build /Users/jobkebede/Documents/Maze-Project/build /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/21_sound_effects_and_music.dir/DependInfo.cmake "--color=$(COLOR)" 21_sound_effects_and_music
+	cd /home/job/Maze-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/job/Maze-Project /home/job/Maze-Project /home/job/Maze-Project/build /home/job/Maze-Project/build /home/job/Maze-Project/build/CMakeFiles/21_sound_effects_and_music.dir/DependInfo.cmake "--color=$(COLOR)" 21_sound_effects_and_music
 .PHONY : CMakeFiles/21_sound_effects_and_music.dir/depend
 

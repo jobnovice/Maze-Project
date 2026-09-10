@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jobkebede/Documents/Maze-Project/21_sound_effects_and_music.cpp" "CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o" "gcc" "CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o.d"
+  "/home/job/Maze-Project/21_sound_effects_and_music.cpp" "CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o" "gcc" "CMakeFiles/21_sound_effects_and_music.dir/21_sound_effects_and_music.cpp.o.d"
+  "" "/home/job/Maze-Project/output/21_sound_effects_and_music" "gcc" "CMakeFiles/21_sound_effects_and_music.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

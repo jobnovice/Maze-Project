@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/jobkebede/Documents/Maze-Project/output/17_mouse_events"
-  "/Users/jobkebede/Documents/Maze-Project/output/17_mouse_events.pdb"
+  "CMakeFiles/17_mouse_events.dir/link.d"
+  "/home/job/Maze-Project/output/17_mouse_events"
+  "/home/job/Maze-Project/output/17_mouse_events.pdb"
   "CMakeFiles/17_mouse_events.dir/17_mouse_events.cpp.o"
   "CMakeFiles/17_mouse_events.dir/17_mouse_events.cpp.o.d"
 )

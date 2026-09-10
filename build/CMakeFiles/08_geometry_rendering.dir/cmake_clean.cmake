@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/jobkebede/Documents/Maze-Project/output/08_geometry_rendering"
-  "/Users/jobkebede/Documents/Maze-Project/output/08_geometry_rendering.pdb"
+  "CMakeFiles/08_geometry_rendering.dir/link.d"
+  "/home/job/Maze-Project/output/08_geometry_rendering"
+  "/home/job/Maze-Project/output/08_geometry_rendering.pdb"
   "CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.o"
   "CMakeFiles/08_geometry_rendering.dir/08_geometry_rendering.cpp.o.d"
 )

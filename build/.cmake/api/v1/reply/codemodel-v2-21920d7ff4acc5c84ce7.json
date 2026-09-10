@@ -1,0 +1,393 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FLAC::FLAC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FLAC__FLAC-b0564bee439079154852.json",
+					"name" : "FLAC::FLAC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "JPEG::JPEG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-JPEG__JPEG-be448198976ac678f812.json",
+					"name" : "JPEG::JPEG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MPG123::libmpg123::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MPG123__libmpg123-dbfb0cd41480fb09f958.json",
+					"name" : "MPG123::libmpg123",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpusFile::opusfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpusFile__opusfile-980c620c58e973b10c78.json",
+					"name" : "OpusFile::opusfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PNG::PNG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PNG__PNG-a41b4d512ce6fdedbab6.json",
+					"name" : "PNG::PNG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-7a1517185c20dc060d1e.json",
+					"name" : "SDL2::SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-static-e0e77115bca4c0559949.json",
+					"name" : "SDL2::SDL2-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2main-4ba1bddc239b15a6bb62.json",
+					"name" : "SDL2::SDL2main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2test-5912f8d2e55884398dc0.json",
+					"name" : "SDL2::SDL2test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_image::SDL2_image::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_image__SDL2_image-38cb94e932d75e40647e.json",
+					"name" : "SDL2_image::SDL2_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_image::SDL2_image-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_image__SDL2_image-static-5b144cf137b8c554cfb8.json",
+					"name" : "SDL2_image::SDL2_image-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_mixer::SDL2_mixer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_mixer__SDL2_mixer-36a27eee0c5403039810.json",
+					"name" : "SDL2_mixer::SDL2_mixer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2_ttf::SDL2_ttf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2_ttf__SDL2_ttf-716da8ede24853a502b2.json",
+					"name" : "SDL2_ttf::SDL2_ttf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TIFF::CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIFF__CXX-179310ebbf079c5153e2.json",
+					"name" : "TIFF::CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TIFF::TIFF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIFF__TIFF-7c2306e551e083df38da.json",
+					"name" : "TIFF::TIFF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vorbis::vorbisfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vorbis__vorbisfile-aab2f0db01a0c5acad9e.json",
+					"name" : "Vorbis::vorbisfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WebP::webp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WebP__webp-0d38e9bfa23410cf00b5.json",
+					"name" : "WebP::webp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WebP::webpdemux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WebP__webpdemux-5b210feebfdcfe0fdee9.json",
+					"name" : "WebP::webpdemux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZLIB::ZLIB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZLIB__ZLIB-32cc0c4b742eb412200c.json",
+					"name" : "ZLIB::ZLIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libxmp::libxmp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libxmp__libxmp-b99761f44d0f46f18806.json",
+					"name" : "libxmp::libxmp",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SDLTutorials",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "03_event_driven_programming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_event_driven_programming-71e02dde3e8759e60337.json",
+					"name" : "03_event_driven_programming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_key_press::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_key_press-b8db5bb86eaaf8292409.json",
+					"name" : "04_key_press",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_optimized_surface_load::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_optimized_surface_load-217572e2295a9d8438e0.json",
+					"name" : "05_optimized_surface_load",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_extension_libraries_and_loading_other_image_formats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_extension_libraries_and_loading_other_image_formats-f47101a5e230837e24b4.json",
+					"name" : "06_extension_libraries_and_loading_other_image_formats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_texture_loading_and_rendering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_texture_loading_and_rendering-9bc5d5a46d532ea29804.json",
+					"name" : "07_texture_loading_and_rendering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_geometry_rendering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_geometry_rendering-754a25cef2520a1210b5.json",
+					"name" : "08_geometry_rendering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_the_viewport::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_the_viewport-337d2e5d8d419d67a0d4.json",
+					"name" : "09_the_viewport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10_color_keying::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_color_keying-ea7036c069a3c977423f.json",
+					"name" : "10_color_keying",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11_clip_rendering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11_clip_rendering-c9bef5de5be1e461f6c2.json",
+					"name" : "11_clip_rendering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12_color_modulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_color_modulation-6bfcfae67287dffc1897.json",
+					"name" : "12_color_modulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_alpha_bending::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_alpha_bending-cace4271611a412d894d.json",
+					"name" : "13_alpha_bending",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_animated_sprites_and_vsync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_animated_sprites_and_vsync-f8d90dc95ed66aab5842.json",
+					"name" : "14_animated_sprites_and_vsync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "15_rotation_and_flipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-15_rotation_and_flipping-3dbc26528b82b40bce2a.json",
+					"name" : "15_rotation_and_flipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_true_type_fonts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_true_type_fonts-e45ce4420aa5cb8c4d71.json",
+					"name" : "16_true_type_fonts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "17_mouse_events::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-17_mouse_events-561e0642bb6cbbd926d9.json",
+					"name" : "17_mouse_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "18_key_states::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18_key_states-8045be07afebddf0b825.json",
+					"name" : "18_key_states",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "21_sound_effects_and_music::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-21_sound_effects_and_music-2577e92c706cefb33b97.json",
+					"name" : "21_sound_effects_and_music",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/job/Maze-Project/build",
+		"source" : "/home/job/Maze-Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

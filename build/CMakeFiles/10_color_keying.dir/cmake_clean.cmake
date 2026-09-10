@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/jobkebede/Documents/Maze-Project/output/10_color_keying"
-  "/Users/jobkebede/Documents/Maze-Project/output/10_color_keying.pdb"
+  "CMakeFiles/10_color_keying.dir/link.d"
+  "/home/job/Maze-Project/output/10_color_keying"
+  "/home/job/Maze-Project/output/10_color_keying.pdb"
   "CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o"
   "CMakeFiles/10_color_keying.dir/10_color_keying.cpp.o.d"
 )

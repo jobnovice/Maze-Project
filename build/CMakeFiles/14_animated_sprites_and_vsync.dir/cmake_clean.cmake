@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/jobkebede/Documents/Maze-Project/output/14_animated_sprites_and_vsync"
-  "/Users/jobkebede/Documents/Maze-Project/output/14_animated_sprites_and_vsync.pdb"
+  "CMakeFiles/14_animated_sprites_and_vsync.dir/link.d"
+  "/home/job/Maze-Project/output/14_animated_sprites_and_vsync"
+  "/home/job/Maze-Project/output/14_animated_sprites_and_vsync.pdb"
   "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o"
   "CMakeFiles/14_animated_sprites_and_vsync.dir/14_animated_sprites_and_vsync.cpp.o.d"
 )

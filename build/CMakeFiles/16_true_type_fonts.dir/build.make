@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jobkebede/Documents/Maze-Project
+CMAKE_SOURCE_DIR = /home/job/Maze-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jobkebede/Documents/Maze-Project/build
+CMAKE_BINARY_DIR = /home/job/Maze-Project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/16_true_type_fonts.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/16_true_type_fonts.dir/codegen:
 .PHONY : CMakeFiles/16_true_type_fonts.dir/codegen
 
 CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o: CMakeFiles/16_true_type_fonts.dir/flags.make
-CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o: /Users/jobkebede/Documents/Maze-Project/16_true_type_fonts.cpp
+CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o: /home/job/Maze-Project/16_true_type_fonts.cpp
 CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o: CMakeFiles/16_true_type_fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o -MF CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o.d -o CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o -c /Users/jobkebede/Documents/Maze-Project/16_true_type_fonts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/job/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o -MF CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o.d -o CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o -c /home/job/Maze-Project/16_true_type_fonts.cpp
 
 CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jobkebede/Documents/Maze-Project/16_true_type_fonts.cpp > CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/job/Maze-Project/16_true_type_fonts.cpp > CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.i
 
 CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jobkebede/Documents/Maze-Project/16_true_type_fonts.cpp -o CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/job/Maze-Project/16_true_type_fonts.cpp -o CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.s
 
 # Object files for target 16_true_type_fonts
 16_true_type_fonts_OBJECTS = \
@@ -93,18 +93,19 @@ CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.s: cmake_force
 # External object files for target 16_true_type_fonts
 16_true_type_fonts_EXTERNAL_OBJECTS =
 
-/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o
-/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/build.make
-/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts: /opt/homebrew/Cellar/sdl2/2.32.10/lib/libSDL2.dylib
-/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts: /opt/homebrew/Cellar/sdl2_image/2.8.8/lib/libSDL2_image.dylib
-/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts: /opt/homebrew/Cellar/sdl2_ttf/2.24.0/lib/libSDL2_ttf.dylib
-/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts: /opt/homebrew/Cellar/sdl2_mixer/2.8.2/lib/libSDL2_mixer.dylib
-/Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jobkebede/Documents/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts"
+/home/job/Maze-Project/output/16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/16_true_type_fonts.cpp.o
+/home/job/Maze-Project/output/16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/build.make
+/home/job/Maze-Project/output/16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/compiler_depend.ts
+/home/job/Maze-Project/output/16_true_type_fonts: /usr/lib/x86_64-linux-gnu/libSDL2.so
+/home/job/Maze-Project/output/16_true_type_fonts: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
+/home/job/Maze-Project/output/16_true_type_fonts: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
+/home/job/Maze-Project/output/16_true_type_fonts: /usr/lib/x86_64-linux-gnu/libSDL2_mixer.so
+/home/job/Maze-Project/output/16_true_type_fonts: CMakeFiles/16_true_type_fonts.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/job/Maze-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/job/Maze-Project/output/16_true_type_fonts"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/16_true_type_fonts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/16_true_type_fonts.dir/build: /Users/jobkebede/Documents/Maze-Project/output/16_true_type_fonts
+CMakeFiles/16_true_type_fonts.dir/build: /home/job/Maze-Project/output/16_true_type_fonts
 .PHONY : CMakeFiles/16_true_type_fonts.dir/build
 
 CMakeFiles/16_true_type_fonts.dir/clean:
@@ -112,6 +113,6 @@ CMakeFiles/16_true_type_fonts.dir/clean:
 .PHONY : CMakeFiles/16_true_type_fonts.dir/clean
 
 CMakeFiles/16_true_type_fonts.dir/depend:
-	cd /Users/jobkebede/Documents/Maze-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jobkebede/Documents/Maze-Project /Users/jobkebede/Documents/Maze-Project /Users/jobkebede/Documents/Maze-Project/build /Users/jobkebede/Documents/Maze-Project/build /Users/jobkebede/Documents/Maze-Project/build/CMakeFiles/16_true_type_fonts.dir/DependInfo.cmake "--color=$(COLOR)" 16_true_type_fonts
+	cd /home/job/Maze-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/job/Maze-Project /home/job/Maze-Project /home/job/Maze-Project/build /home/job/Maze-Project/build /home/job/Maze-Project/build/CMakeFiles/16_true_type_fonts.dir/DependInfo.cmake "--color=$(COLOR)" 16_true_type_fonts
 .PHONY : CMakeFiles/16_true_type_fonts.dir/depend
 
